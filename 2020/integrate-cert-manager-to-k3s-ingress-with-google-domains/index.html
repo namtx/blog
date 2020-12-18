@@ -1,0 +1,136 @@
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title> Integrate cert-manager to k3s ingress with Google Domains | namtx.dev </title> <meta name="description" content=" Integrate cert-manager to k3s ingress with Google Domains "> <meta name="keywords" content="blog, web, devops, ruby on rails"> <meta name="HandheldFriendly" content="True"> <meta name="MobileOptimized" content="320"> <!-- Social: Facebook / Open Graph --> <meta property="og:type" content="article"> <meta property="article:author" content="Tran Xuan Nam"> <meta property="article:section" content=""> <meta property="article:tag" content=""> <meta property="article:published_time" content="2020-08-12 00:00:00 +0000"> <meta property="og:url" content="https://namtx.github.io/2020/integrate-cert-manager-to-k3s-ingress-with-google-domains/"> <meta property="og:title" content=" Integrate cert-manager to k3s ingress with Google Domains | namtx.dev "> <meta property="og:image" content="https://namtx.github.io"> <meta property="og:description" content=" Integrate cert-manager to k3s ingress with Google Domains "> <meta property="og:site_name" content="Tran Xuan Nam"> <meta property="og:locale" content="en_US"> <!-- Social: Twitter --> <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:site" content=""> <meta name="twitter:title" content=" Integrate cert-manager to k3s ingress with Google Domains | namtx.dev "> <meta name="twitter:description" content=" Integrate cert-manager to k3s ingress with Google Domains "> <meta name="twitter:image:src" content="https://namtx.github.io"> <!-- Social: Google+ / Schema.org --> <meta itemprop="name" content=" Integrate cert-manager to k3s ingress with Google Domains | namtx.dev "> <meta itemprop="description" content=" Integrate cert-manager to k3s ingress with Google Domains "> <meta itemprop="image" content="https://namtx.github.io"> <!-- Canonical link tag --> <link rel="canonical" href="https://namtx.github.io/2020/integrate-cert-manager-to-k3s-ingress-with-google-domains/"> <link rel="alternate" type="application/rss+xml" title="namtx.dev" href="https://namtx.github.io/feed.xml"> <!-- rel prev and next --> <link rel="stylesheet" href="https://namtx.github.io/assets/css/main.css"> <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> <link rel="icon" href="/favicon.ico" type="image/x-icon"> </head> <body> <main class="wrapper"> <header class="site-header"> <nav class="nav"> <div class="container"> <h1 class="logo"><a href="https://namtx.github.io/">namtx<span>.dev</span></a></h1> <ul class="navbar"> <li><a href="https://namtx.github.io/about">About me</a></li> <li><a href="https://namtx.github.io/feed.xml" target="_blank">RSS</a></li> <li><a href="https://bookmarks.namtx.now.sh/" target="_blank">Bookmarks</a></li> </ul> </div> </nav> </header> <article class="post container" itemscope itemtype="http://schema.org/BlogPosting"> <header class="post-header"> <p class="post-meta"><time datetime="2020-08-12T00:00:00+00:00" itemprop="datePublished">Aug 12, 2020</time></p> <h1 class="post-title" itemprop="name headline">Integrate cert-manager to k3s ingress with Google Domains</h1> </header> <div class="post-content" itemprop="articleBody"> <h3 id="concepts">Concepts</h3> <h4 id="issuer">Issuer</h4> <ul> <li>Issuers, ClusterIssuers are k8s resources that represent CA that are able to generate signed certificates.</li> </ul> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">cert-manager.io/v1alpha2</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Issuer</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">ca-issuer</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">mesh-system</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">ca</span><span class="pi">:</span>
+    <span class="na">secretName</span><span class="pi">:</span> <span class="s">ca-key-pair</span>
+</code></pre></div></div> <p>This is a simple Issuer that will sign certificates based on a private key. The certificate stored in the secret <code class="highlighter-rouge">ca-key-pair</code> can be used to trust newly signed certificates by this Issuer in Public Key Infrastructure (PKI) system.</p> <h5 id="namespaces">Namespaces</h5> <p>An Issuer is namespaced resource. If you want to create a single Issuer that can be consumed in multiple namespaces, you should consider ClusterIssuer</p> <h4 id="certificate">Certificate</h4> <p>Defines a desired x509 certificate which will be renewed and kept up to date When a Certificate is created, a corresponding CertificateRequest resource is created by cert-manager containing the encoded x509 certificate request.</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">cert-manager.io/v1alpha2</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Certificate</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">acme-crt</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">secretName</span><span class="pi">:</span> <span class="s">acme-crt-secret</span>
+  <span class="na">dnsNames</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">foo.example.com</span>
+  <span class="pi">-</span> <span class="s">bar.example.com</span>
+  <span class="na">issuerRef</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">letencrypt-prod</span>
+    <span class="na">kind</span><span class="pi">:</span> <span class="s">Issuer</span>
+    <span class="na">group</span><span class="pi">:</span> <span class="s">cert-manager.io</span>
+</code></pre></div></div> <p>This Certificate will tell cert-manager to attempt to use the Issuer named letencrypt-prod to obtain a certificate key pair for the <code class="highlighter-rouge">foo.example.com</code> and <code class="highlighter-rouge">bar.example.com</code> domains. If successful, the resulting key and certificate will be stored in a secret named <code class="highlighter-rouge">acme-crt-secret</code> with keys <code class="highlighter-rouge">tls.key</code> and <code class="highlighter-rouge">tls.crt</code> respectively.</p> <h4 id="acme-orders-and-challenges">ACME Orders and Challenges</h4> <p>cert-manager supports requesting certificates from ACME Server including <a href="https://letsencrypt.org/">Let’s Encrypt</a>.</p> <p>To successfully request a certificate, cert-manager must solve ACME Challenges which are completed in order to prove that the client owns the DNS addresses that are being requested.</p> <h5 id="orders">Orders</h5> <p>Orders resources are used by the ACME issuer to manage the lifecycle of of an ACME ‘order’ for a signed TLS certificate</p> <h3 id="installation">Installation</h3> <p><a href="https://cert-manager.io/docs/installation/kubernetes/">Kubernetes</a></p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl apply <span class="nt">--validate</span><span class="o">=</span><span class="nb">false</span> <span class="nt">-f</span> https://github.com/jetstack/cert-manager/releases/download/v0.16.1/cert-manager.yaml
+</code></pre></div></div> <h4 id="verification">Verification</h4> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl get pods <span class="nt">--namespace</span> cert-manager
+
+NAME                                       READY   STATUS    RESTARTS   AGE
+cert-manager-5c6866597-zw7kh               1/1     Running   0          2m
+cert-manager-cainjector-577f6d9fd7-tr77l   1/1     Running   0          2m
+cert-manager-webhook-787858fcdb-nlzsq      1/1     Running   0          2m
+</code></pre></div></div> <p>Create a test Issuer</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Namespace</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">cert-manager-test</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">cert-manager.io/v1alpha2</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Issuer</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">test-selfsigned</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">cert-manager-test</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">selfSigned</span><span class="pi">:</span> <span class="pi">{}</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">cert-manager.io/v1alpha2</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Certificate</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">selfsigned-cert</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">cert-manager-test</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">dnsNames</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">example.com</span>
+  <span class="na">secretName</span><span class="pi">:</span> <span class="s">selfsigned-cert-tls</span>
+  <span class="na">issuerRef</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">test-selfsigned</span>
+</code></pre></div></div> <p>Create the test resources</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl apply <span class="nt">-f</span> cert-manager-test.yaml
+</code></pre></div></div> <p>Check the status of Certificate</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl describe certificate <span class="nt">-n</span> cert-manager-test
+Status:
+  Conditions:
+    Last Transition Time:  2020-08-11T14:34:08Z
+    Message:               Certificate is up to <span class="nb">date </span>and has not expired
+    Reason:                Ready
+    Status:                True
+    Type:                  Ready
+  Not After:               2020-11-09T14:34:07Z
+  Not Before:              2020-08-11T14:34:07Z
+  Renewal Time:            2020-10-10T14:34:07Z
+  Revision:                1
+Events:
+  Type    Reason     Age   From          Message
+  <span class="nt">----</span>    <span class="nt">------</span>     <span class="nt">----</span>  <span class="nt">----</span>          <span class="nt">-------</span>
+  Normal  Issuing    42s   cert-manager  Issuing certificate as Secret does not exist
+  Normal  Generated  42s   cert-manager  Stored new private key <span class="k">in </span>temporary Secret resource <span class="s2">"selfsigned-cert-6pkq2"</span>
+  Normal  Requested  42s   cert-manager  Created new CertificateRequest resource <span class="s2">"selfsigned-cert-nbsqw"</span>
+  Normal  Issuing    42s   cert-manager  The certificate has been successfully issued
+</code></pre></div></div> <p>Clean up</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>k delete <span class="nt">-f</span> cert-manager-test.yaml
+</code></pre></div></div> <h3 id="configuration">Configuration</h3> <p>In this post, we are gonna generate Let’s Encrypt certificate which is ACME server</p> <p><a href="https://cert-manager.io/docs/configuration/acme/">ACME</a></p> <h5 id="setup-service-account-for-google-clouddns">Setup Service Account for Google CloudDNS</h5> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">export </span><span class="nv">PROJECT_ID</span><span class="o">=</span><span class="si">$(</span>gcloud config get-value project<span class="si">)</span>
+<span class="nv">$ </span>gcloud iam service-accounts create dns01-solver <span class="nt">--display-name</span> <span class="s2">"dns01-solver"</span>
+<span class="nv">$ </span>gcloud projects add-iam-policy-binding <span class="nv">$PROJECT_ID</span> <span class="se">\</span>
+  <span class="nt">--member</span> serviceAccount:dns01-solver@<span class="nv">$PROJECT_ID</span>.iam.gserviceaccount.com <span class="se">\</span>
+  <span class="nt">--role</span> roles/dns.admin
+</code></pre></div></div> <h5 id="create-account-secret">Create account secret</h5> <p>In this step, we are going to generate <code class="highlighter-rouge">key.json</code> from google service account and save it into k8s secret</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gcloud iam service-accounts keys create key.json <span class="se">\</span>
+  <span class="nt">--iam-account</span> dns01-solver@<span class="nv">$PROJECT_ID</span>.iam.gserviceaccount.com
+<span class="nv">$ </span>kubectl <span class="nt">-n</span> cert-manager create secret generic clouddns-dns01-solver-svc-acct <span class="se">\</span>
+  <span class="nt">--from-file</span><span class="o">=</span>key.json
+</code></pre></div></div> <blockquote> <p>Note: If you have already added the Secret but get an error: <code class="highlighter-rouge">...due to error processing: error getting clouddns service account: secret "XXX" not found</code>, the Secret may be in the wrong namespace. If you’re configuring a ClusterIssuer, move the Secret to the Cluster Resource Namespace which is cert-manager by default. If you’re configuring an Issuer, the Secret should be stored in the same namespace as the Issuer resource.</p> </blockquote> <p>So we should create <code class="highlighter-rouge">clouddns-dns01-solver-svc-acct</code> in the <code class="highlighter-rouge">cert-manager</code> namespace</p> <p><code class="highlighter-rouge">key.json</code> file contains credentials data, so, after generated secret from this file, we should clear it from local</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">rm </span>key.json
+</code></pre></div></div> <h5 id="add-your-domain-to-clouddns">Add your domain to CloudDNS</h5> <p>Access <a href="https://console.cloud.google.com/net-services/dns/zones">https://console.cloud.google.com/net-services/dns/zones</a> to add your domain to a public zone</p> <p>With A record point to our server IP address</p> <p><img src="https://user-images.githubusercontent.com/25602820/89972264-95ca9a00-dc87-11ea-8d10-fa42d64f68de.jpg" alt="https://user-images.githubusercontent.com/25602820/89972264-95ca9a00-dc87-11ea-8d10-fa42d64f68de.jpg" /></p> <h5 id="create-a-basic-issuer">Create a basic Issuer</h5> <p>For test, staging environment we will use <code class="highlighter-rouge">https://acme-staging-v02.api.letsencrypt.org/directory</code> as ACME server, for production environment, please use <code class="highlighter-rouge">https://acme-v02.api.letsencrypt.org/directory</code></p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">cert-manager.io/v1alpha2</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">ClusterIssuer</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">letencrypt-staging</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">acme</span><span class="pi">:</span>
+    <span class="na">email</span><span class="pi">:</span> <span class="s">xuannam2620@gmail.com</span> <span class="c1"># this email will be used by let's encrypt to inform us about certificate expiring</span>
+    <span class="na">server</span><span class="pi">:</span> <span class="s">https://acme-staging-v02.api.letsencrypt.org/directory</span>
+    <span class="na">privateKeySecretRef</span><span class="pi">:</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">letsencrypt-issuer-account-key</span>
+    <span class="na">solvers</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">dns01</span><span class="pi">:</span>
+        <span class="na">clouddns</span><span class="pi">:</span>
+          <span class="na">project</span><span class="pi">:</span> <span class="s">tf-test-xxxx</span>
+          <span class="s">serviceAccountSecretRef</span>
+            <span class="s">name</span><span class="pi">:</span> <span class="s">clouddns-dns01-solver-svc-acct</span>
+            <span class="s">key</span><span class="pi">:</span> <span class="s">key.json</span>
+</code></pre></div></div> <p>About DNS01 Challenge for Google CloudDNS please refer: <a href="https://cert-manager.io/docs/configuration/acme/dns01/google/">https://cert-manager.io/docs/configuration/acme/dns01/google/</a></p> <p>Create the ClusterIssuer</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl create <span class="nt">-f</span> letsencrypt-staging-issuer.yaml
+</code></pre></div></div> <p>Confirm the result by</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl get clusterissuer
+NAME                         READY   AGE
+letsencrypt-staging-issuer   True    38m
+</code></pre></div></div> <h5 id="create-a-lets-encrypt-certificate">Create a Let’s Encrypt Certificate</h5> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">cert-manager.io/v1alpha2</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">namtx-dev-letsencrypt-cert</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">secretName</span><span class="pi">:</span> <span class="s">namtx-dev-letsencrypt-tls</span>
+  <span class="na">issuerRef</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">letsencrypt-staging-issuer</span>
+    <span class="na">kind</span><span class="pi">:</span> <span class="s">ClusterIssuer</span>
+  <span class="na">dnsNames</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">namtx.dev</span>
+</code></pre></div></div> <p>Apply it by</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl create <span class="nt">-f</span> letsencrypt-staging-certificate.yaml
+</code></pre></div></div> <p>Confirm by</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get cert
+NAME                         READY   SECRET                      AGE
+namtx-dev-letsencrypt-cert   True    namtx-dev-letsencrypt-tls   37m
+</code></pre></div></div> <p>So, our Certificate is ready to use, let’s add it to our Ingress</p> <h3 id="add-certificate-to-our-ingress">Add certificate to our Ingress</h3> <p>After previous step, a certificate will be issued by Let’s Encrypt and saved into secret <code class="highlighter-rouge">namtx-dev-letsencrypt-tls</code> (we specified the name by <code class="highlighter-rouge">secretName</code> value in certificate yaml file)</p> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">networking.k8s.io/v1beta1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Ingress</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">backend-ingress</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">rules</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">host</span><span class="pi">:</span> <span class="s">namtx.dev</span>
+    <span class="na">http</span><span class="pi">:</span>
+      <span class="na">paths</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">path</span><span class="pi">:</span> <span class="s">/</span>
+  <span class="na">backend</span><span class="pi">:</span>
+    <span class="na">serviceName</span><span class="pi">:</span> <span class="s">backend-service</span>
+    <span class="na">servicePort</span><span class="pi">:</span> <span class="m">80</span>
+  <span class="na">tls</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">hosts</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">namtx.dev</span>
+    <span class="na">secretName</span><span class="pi">:</span> <span class="s">namtx-dev-letsencrypt-tls</span>
+</code></pre></div></div> <h3 id="references">References</h3> <ul> <li><a href="https://cert-manager.io/docs/">https://cert-manager.io/docs/</a></li> </ul> </div> </article> <footer class="site-footer"> <div class="container"> <small class="block">&copy; 2020 Tran Xuan Nam &middot; &lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace">Thinkspace theme</a></small> </div> </footer> </main> <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-XXXXX-XX']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> </body> </html>
