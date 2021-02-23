@@ -5,9 +5,23 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Feb 2021 09:28:20 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2021 09:28:20 +0000</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2021 09:34:52 +0000</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2021 09:34:52 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Test issues-to-blog action</title>
+        <description>&lt;h1 id=&quot;test-issues-to-blog-actions&quot;&gt;Test issues-to-blog actions&lt;/h1&gt;
+
+&lt;p&gt;https://github.com/marketplace/actions/issues-to-blog-post-action&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/test_issues-to-blog_action/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/test_issues-to-blog_action/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tab management in Kitty terminal</title>
@@ -173,37 +187,6 @@ No javascript: Lưu ý cần cung cấp fallback (noscript) trong trường hợ
         <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/lazyloading_images/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/lazyloading_images/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>JAVA_HOME and libexec/java_home</title>
-        <description>&lt;h3 id=&quot;get-the-list-of-available-jdks&quot;&gt;Get the list of available JDKs&lt;/h3&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;/usr/libexec/java_home &lt;span class=&quot;nt&quot;&gt;-V&lt;/span&gt;
-Matching Java Virtual Machines &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;5&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
-    15.0.1, x86_64:     &lt;span class=&quot;s2&quot;&gt;&quot;OpenJDK 15.0.1&quot;&lt;/span&gt;        /Users/namtx/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home
-    13.0.5, x86_64:     &lt;span class=&quot;s2&quot;&gt;&quot;Zulu 13.35.17&quot;&lt;/span&gt; /Users/namtx/Library/Java/JavaVirtualMachines/azul-13.0.5/Contents/Home
-    11.0.9.1, x86_64:   &lt;span class=&quot;s2&quot;&gt;&quot;Zulu 11.43.55&quot;&lt;/span&gt; /Users/namtx/Library/Java/JavaVirtualMachines/azul-11.0.9.1/Contents/Home
-    1.8.0_275, x86_64:  &lt;span class=&quot;s2&quot;&gt;&quot;AdoptOpenJDK 8&quot;&lt;/span&gt;        /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
-    1.8.0_272, x86_64:  &lt;span class=&quot;s2&quot;&gt;&quot;Zulu 8.50.0.21&quot;&lt;/span&gt;        /Users/namtx/Library/Java/JavaVirtualMachines/azul-1.8.0_272/Contents/Home
-
-/Users/namtx/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;specific-jdk-version-by-libexecjava_home&quot;&gt;Specific JDK version by libexec/java_home&lt;/h3&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;/usr/libexec/java_home &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; 11.0.9.1&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;java &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;
-openjdk version &lt;span class=&quot;s2&quot;&gt;&quot;11.0.9.1&quot;&lt;/span&gt; 2020-11-04 LTS
-OpenJDK Runtime Environment Zulu11.43+55-CA &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;build 11.0.9.1+1-LTS&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-OpenJDK 64-Bit Server VM Zulu11.43+55-CA &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;build 11.0.9.1+1-LTS, mixed mode&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/java_home_and_libexec_java_home/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/java_home_and_libexec_java_home/</guid>
         
         
       </item>
