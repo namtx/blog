@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Feb 2021 15:37:59 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2021 15:37:59 +0000</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2021 15:44:50 +0000</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2021 15:44:50 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -30,9 +30,9 @@
         <title>Tab management in Kitty terminal</title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 8532CD&quot;&gt;kitty&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #8532CD&quot;&gt;kitty&lt;/span&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: E97FE5&quot;&gt;terminal&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #E97FE5&quot;&gt;terminal&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;h1&gt;🐱&lt;/h1&gt;
@@ -56,7 +56,7 @@
         <title>Install RVM on MacOS</title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: b517d1&quot;&gt;ruby&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #b517d1&quot;&gt;ruby&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;p&gt;https://nrogap.medium.com/install-rvm-in-macos-step-by-step-d3b3c236953b&lt;/p&gt;
@@ -73,9 +73,9 @@
         <title>How to open Alfred preferences window?</title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 07C617&quot;&gt;macos&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #07C617&quot;&gt;macos&lt;/span&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: AF70A4&quot;&gt;shortcut&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #AF70A4&quot;&gt;shortcut&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘ + , &lt;/code&gt; to open Alfred preferences window&lt;/p&gt;
@@ -92,9 +92,9 @@
         <title>Describe table in PostgresQL </title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: f9d0c4&quot;&gt;database&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #f9d0c4&quot;&gt;database&lt;/span&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: cc3eef&quot;&gt;postgresql&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #cc3eef&quot;&gt;postgresql&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; 
@@ -120,7 +120,7 @@
         <title>Git clone with submodules</title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 05c66c&quot;&gt;git&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #05c66c&quot;&gt;git&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;p&gt;https://stackoverflow.com/a/4438292&lt;/p&gt;
@@ -140,9 +140,9 @@
         <title>How to cyclically ping to an API endpoint using Github action</title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: DCEAD6&quot;&gt;devops&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #DCEAD6&quot;&gt;devops&lt;/span&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 22ADD3&quot;&gt;hack&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #22ADD3&quot;&gt;hack&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;ul&gt;
@@ -182,7 +182,7 @@ with:
         <title>Kitty terminal repeats  the command in output</title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: E97FE5&quot;&gt;terminal&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #E97FE5&quot;&gt;terminal&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;p&gt;https://stackoverflow.com/questions/30940299/zsh-repeats-command-in-output&lt;/p&gt;
@@ -199,7 +199,7 @@ with:
         <title>Multiple export with dot </title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: f298a4&quot;&gt;js&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #f298a4&quot;&gt;js&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;h3 id=&quot;do-you-want-to-use-sidebaritem-instead-of-sidebaritem&quot;&gt;Do you want to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Sidebar.Item&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;SidebarItem&lt;/code&gt;?&lt;/h3&gt;
@@ -222,9 +222,9 @@ with:
         <title>lazyloading images</title>
         <description>&lt;p&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 792da8&quot;&gt;css&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #792da8&quot;&gt;css&lt;/span&gt;
   
-  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: C2D3D7&quot;&gt;frontend&lt;/span&gt;
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #C2D3D7&quot;&gt;frontend&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;p&gt;Làm thế nào để lazy load img?
