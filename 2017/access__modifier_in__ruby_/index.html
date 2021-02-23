@@ -1,0 +1,106 @@
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title> Access Modifier in Ruby | namtx.dev </title> <meta name="description" content=" Ruby on Rails, Devops and more "> <meta name="keywords" content="blog, web, devops, ruby on rails"> <meta name="HandheldFriendly" content="True"> <meta name="MobileOptimized" content="320"> <!-- Social: Facebook / Open Graph --> <meta property="og:type" content="article"> <meta property="article:author" content="Tran Xuan Nam"> <meta property="article:section" content=""> <meta property="article:tag" content=""> <meta property="article:published_time" content="2017-07-09 00:00:00 +0000"> <meta property="og:url" content="https://namtx.github.io/2017/access__modifier_in__ruby_/"> <meta property="og:title" content=" Access Modifier in Ruby | namtx.dev "> <meta property="og:image" content="https://namtx.github.io"> <meta property="og:description" content=" Ruby on Rails, Devops and more "> <meta property="og:site_name" content="Tran Xuan Nam"> <meta property="og:locale" content="en_US"> <!-- Social: Twitter --> <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:site" content=""> <meta name="twitter:title" content=" Access Modifier in Ruby | namtx.dev "> <meta name="twitter:description" content=" Ruby on Rails, Devops and more "> <meta name="twitter:image:src" content="https://namtx.github.io"> <!-- Social: Google+ / Schema.org --> <meta itemprop="name" content=" Access Modifier in Ruby | namtx.dev "> <meta itemprop="description" content=" Ruby on Rails, Devops and more "> <meta itemprop="image" content="https://namtx.github.io"> <!-- Canonical link tag --> <link rel="canonical" href="https://namtx.github.io/2017/access__modifier_in__ruby_/"> <link rel="alternate" type="application/rss+xml" title="namtx.dev" href="https://namtx.github.io/feed.xml"> <!-- rel prev and next --> <link rel="stylesheet" href="https://namtx.github.io/assets/css/main.css"> <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> <link rel="icon" href="/favicon.ico" type="image/x-icon"> </head> <body> <main class="wrapper"> <header class="site-header"> <nav class="nav"> <div class="container"> <h1 class="logo"><a href="https://namtx.github.io/">namtx<span>.dev</span></a></h1> <ul class="navbar"> <li><a href="https://namtx.github.io/about">About me</a></li> <li><a href="https://bookmarks.namtx.now.sh/" target="_blank">Bookmarks</a></li> <li><a href="https://namtx.github.io/til">TIL</a></li> </ul> </div> </nav> </header> <article class="post container" itemscope itemtype="http://schema.org/BlogPosting"> <header class="post-header"> <p class="post-meta"><time datetime="2017-07-09T00:00:00+00:00" itemprop="datePublished">Jul 9, 2017</time></p> <h1 class="post-title" itemprop="name headline">Access Modifier in Ruby </h1> </header> <div class="post-content" itemprop="articleBody"> <ul> <li><code class="highlighter-rouge">public</code>: phương thức này có thể gọi từ bất cứ đâu, có thể coi như không có kiểm soát hay giới hạn truy cập.</li> <li><code class="highlighter-rouge">protected</code>: phương thức này có thể được gọi từ một đối tượng của lớp này hoặc một đối tượng là con của lớp này.</li> <li><code class="highlighter-rouge">private</code>: phương thức này chỉ được gọi từ chính nó (đối tượng gọi và đối tượng nhận là một). <h3 id="truy-cập-từ-một-đối-tượng-khác-lớp-đối-tượng-gọi-phương-thức-và-đối-tượng-nhật-phương-thức-thuộc-2-lớp-khác-nhau">Truy cập từ một đối tượng khác lớp (đối tượng gọi phương thức và đối tượng nhật phương thức thuộc 2 lớp khác nhau)</h3> <p>```ruby class AccessControll def test_public puts “public access OK” end</p> <p>protected</p> <p>def test_protected puts “protected access OK” end</p> <p>private</p> <p>def test_private puts “private access OK” end end</p> </li> </ul> <p>class Test def test aceess_controll = AccessControll.new aceess_controll.test_public # public access OK aceess_controll.test_protected # NoMethodError aceess_controll.test_private # NoMethodError end end Test.new.test</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### Truy cập từ một đối tượng khác thuộc cùng một lớp (2 đối tượng gọi và nhận phương thức thuộc cùng một lớp)
+```ruby
+class AccessControll
+  def test other
+    other.test_public # public access OK
+    other.test_protected # protected access OK
+    other.test_private # NoMethodError
+  end
+
+  def test_public
+    puts "public access OK"
+  end
+
+  protected
+
+  def test_protected
+    puts "protected access OK"
+  end
+
+  private
+
+  def test_private
+    puts "private access OK"
+  end
+end
+
+AccessControll.new.test AccessControll.new 
+</code></pre></div></div> <h3 id="truy-cập-từ-một-đối-tượng-thuộc-lớp-con-đối-tượng-gọi-có-lớp-là-lớp-con-của-đối-tượng-nhận">Truy cập từ một đối tượng thuộc lớp con (đối tượng gọi có lớp là lớp con của đối tượng nhận)</h3> <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">AccessControll</span>
+  <span class="k">def</span> <span class="nf">test_public</span>
+    <span class="nb">puts</span> <span class="s2">"public access OK"</span>
+  <span class="k">end</span>
+
+  <span class="kp">protected</span>
+
+  <span class="k">def</span> <span class="nf">test_protected</span>
+    <span class="nb">puts</span> <span class="s2">"protected access OK"</span>
+  <span class="k">end</span>
+
+  <span class="kp">private</span>
+
+  <span class="k">def</span> <span class="nf">test_private</span>
+    <span class="nb">puts</span> <span class="s2">"private access OK"</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="k">class</span> <span class="nc">Children</span> <span class="o">&lt;</span> <span class="no">AccessControll</span>
+  <span class="k">def</span> <span class="nf">test</span> <span class="n">other</span>
+    <span class="n">other</span><span class="p">.</span><span class="nf">test_public</span> <span class="c1"># public access OK</span>
+    <span class="n">other</span><span class="p">.</span><span class="nf">test_protected</span> <span class="c1"># protected access OK</span>
+    <span class="n">other</span><span class="p">.</span><span class="nf">test_private</span> <span class="c1"># NoMethodError</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="no">Children</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">test</span> <span class="no">AccessControll</span><span class="p">.</span><span class="nf">new</span>
+</code></pre></div></div> <h3 id="truy-cập-từ-một-đối-tượng-thuộc-lớp-cha-đối-tượng-gọi-có-lớp-là-lớp-cha-của-đối-tượng-nhận">Truy cập từ một đối tượng thuộc lớp cha (đối tượng gọi có lớp là lớp cha của đối tượng nhận)</h3> <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Parent</span>
+  <span class="k">def</span> <span class="nf">test</span> <span class="n">other</span>
+    <span class="n">other</span><span class="p">.</span><span class="nf">test_public</span> <span class="c1"># public access OK</span>
+    <span class="n">other</span><span class="p">.</span><span class="nf">test_protected</span> <span class="c1"># protected access OK</span>
+    <span class="n">other</span><span class="p">.</span><span class="nf">test_private</span> <span class="c1"># NoMethodError</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="k">class</span> <span class="nc">AccessControll</span> <span class="o">&lt;</span> <span class="no">Parent</span>
+  <span class="k">def</span> <span class="nf">test_public</span>
+    <span class="nb">puts</span> <span class="s2">"public access OK"</span>
+  <span class="k">end</span>
+
+  <span class="kp">protected</span>
+
+  <span class="k">def</span> <span class="nf">test_protected</span>
+    <span class="nb">puts</span> <span class="s2">"protected access OK"</span>
+  <span class="k">end</span>
+
+  <span class="kp">private</span>
+
+  <span class="k">def</span> <span class="nf">test_private</span>
+    <span class="nb">puts</span> <span class="s2">"private access OK"</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="no">Parent</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">test</span> <span class="no">AccessControll</span><span class="p">.</span><span class="nf">new</span> 
+</code></pre></div></div> <h3 id="truy-cập-từ-cùng-một-đối-tượng-đối-tượng-gọi-phương-thức-và-đối-tượng-nhận-phương-thức-là-1-đối-tượng-duy-nhất">Truy cập từ cùng một đối tượng (đối tượng gọi phương thức và đối tượng nhận phương thức là 1 đối tượng duy nhất)</h3> <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">AccessControll</span>
+  <span class="k">def</span> <span class="nf">test</span>
+    <span class="n">test_public</span> <span class="c1"># public access OK</span>
+    <span class="n">test_protected</span> <span class="c1"># protected access OK</span>
+    <span class="n">test_private</span> <span class="c1"># private access OK</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">test_public</span>
+    <span class="nb">puts</span> <span class="s2">"public access OK"</span>
+  <span class="k">end</span>
+
+  <span class="kp">protected</span>
+
+  <span class="k">def</span> <span class="nf">test_protected</span>
+    <span class="nb">puts</span> <span class="s2">"protected access OK"</span>
+  <span class="k">end</span>
+
+  <span class="kp">private</span>
+
+  <span class="k">def</span> <span class="nf">test_private</span>
+    <span class="nb">puts</span> <span class="s2">"private access OK"</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+<span class="no">AccessControll</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">test</span>
+</code></pre></div></div> </div> </article> <footer class="site-footer"> <div class="container"> <small class="block">&copy; 2021 Tran Xuan Nam &middot; &lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace">Thinkspace theme</a></small> </div> </footer> </main> <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-XXXXX-XX']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> </body> </html>

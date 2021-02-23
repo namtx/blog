@@ -5,86 +5,9 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Feb 2021 06:45:15 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2021 06:45:15 +0000</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2021 09:28:20 +0000</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2021 09:28:20 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
-    
-      <item>
-        <title>Vimscript matchstr</title>
-        <description>&lt;p&gt;https://stackoverflow.com/a/52629621&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/vimscript_matchstr/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/vimscript_matchstr/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vim &lt;3 ReactJS</title>
-        <description>&lt;p&gt;https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim
-Vim ❤️ ReactJS&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/vim_-3__react_js/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/vim_-3__react_js/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tmux cheatsheets</title>
-        <description>&lt;p&gt;https://tmuxcheatsheet.com/&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/tmux_cheatsheets/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/tmux_cheatsheets/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Timecop cheatsheets</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;freeze&quot;&gt;freeze&lt;/h4&gt;
-    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;Timecop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;freeze&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1990&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;return&quot;&gt;return&lt;/h4&gt;
-    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;Timecop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h4 id=&quot;travel&quot;&gt;travel&lt;/h4&gt;
-    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;Timecop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;travel&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/timecop_cheatsheets/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/timecop_cheatsheets/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ten-reasons-to-prefer-postgresql-to-mysql</title>
-        <description>&lt;p&gt;https://www.slideshare.net/anandology/ten-reasons-to-prefer-postgresql-to-mysql?qid=fc1f16a9-c040-4dcd-9895-d0c213fb568c&amp;amp;v=&amp;amp;b=&amp;amp;from_search=21&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/ten-reasons-to-prefer-postgresql-to-mysql/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/ten-reasons-to-prefer-postgresql-to-mysql/</guid>
-        
-        
-      </item>
     
       <item>
         <title>Tab management in Kitty terminal</title>
@@ -98,7 +21,7 @@ Vim ❤️ ReactJS&lt;/p&gt;
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/tab_management_in__kitty_terminal/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/tab_management_in__kitty_terminal/</guid>
         
@@ -106,157 +29,181 @@ Vim ❤️ ReactJS&lt;/p&gt;
       </item>
     
       <item>
-        <title>super keyword in Ruby's inheritance</title>
-        <description>&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Animal&lt;/span&gt; 
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
-    &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; 
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; 
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt;
-    &lt;span class=&quot;vi&quot;&gt;@color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;bruno&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;brown&quot;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bruno&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; &amp;lt; @name = &quot;brown&quot;, @color = &quot;brown&quot; &amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;in addition to the default behavior, &lt;code class=&quot;highlighter-rouge&quot;&gt;super&lt;/code&gt; automatically forwards the arguments that were passed to the method from which &lt;code class=&quot;highlighter-rouge&quot;&gt;super&lt;/code&gt; is called (&lt;code class=&quot;highlighter-rouge&quot;&gt;initialize&lt;/code&gt; method in &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; class)&lt;/p&gt;
-
-&lt;p&gt;Right way!&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; wrong number of arguments&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;super&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
-    &lt;span class=&quot;vi&quot;&gt;@color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;bruno&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;bruno&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;brown&quot;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bruno&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; &amp;lt; @name = &quot;bruno&quot;, @color = &quot;brown&quot; &amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+        <title>Install RVM on MacOS</title>
+        <description>&lt;p&gt;https://nrogap.medium.com/install-rvm-in-macos-step-by-step-d3b3c236953b&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/super_keyword_in__ruby's_inheritance/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/super_keyword_in__ruby's_inheritance/</guid>
+        <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/install_rvm_on__mac_os/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/install_rvm_on__mac_os/</guid>
         
         
       </item>
     
       <item>
-        <title>Stream and stdin, stdout, stderr</title>
+        <title>How to open Alfred preferences window?</title>
+        <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘ + , &lt;/code&gt; to open Alfred preferences window&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/how_to_open__alfred_preferences_window/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/how_to_open__alfred_preferences_window/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Describe table in PostgresQL </title>
+        <description>&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; 
+   &lt;span class=&quot;k&quot;&gt;table_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+   &lt;span class=&quot;k&quot;&gt;column_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+   &lt;span class=&quot;n&quot;&gt;data_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;is_nullable&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; 
+   &lt;span class=&quot;n&quot;&gt;information_schema&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; 
+   &lt;span class=&quot;k&quot;&gt;table_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'compensations'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/describe_table_in__postgres_ql_/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/describe_table_in__postgres_ql_/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Git clone with submodules</title>
+        <description>&lt;p&gt;https://stackoverflow.com/a/4438292&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone &lt;span class=&quot;nt&quot;&gt;--recursive&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-j8&lt;/span&gt; repository_url 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/git_clone_with_submodules/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/git_clone_with_submodules/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to cyclically ping to an API endpoint using Github action</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;Create a new file &amp;amp; feed some data
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;touch&lt;/span&gt; /tmp/til.txt
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Look, I have something inside&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; /tmp/til.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Now
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /tmp/til.txt                                                                                                        
-Look, I have something inside% 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Open a file for reading
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;3&amp;lt; /tmp/til.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Now, you can read
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;0&amp;lt;&amp;amp;3
-Look, I have something inside%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Once you have opened a file descriptor for reading, you can only “consume” it once&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Run again
-```bash
-$ cat 0&amp;lt;&amp;amp;3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nothing shown
-- We also can create a file-descriptor to write file
-```bash
-$ touch /tmp/til-2.txt
-$ exec 4&amp;gt;&amp;amp;/tmp/til-2.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;And then,
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;cowsay Hello there! 1&amp;gt;&amp;amp;4
- ______________
-&amp;lt; Hello there! &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
- &lt;span class=&quot;nt&quot;&gt;--------------&lt;/span&gt;
-      &lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;  ^__^
-       &lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;oo&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\_&lt;/span&gt;______
-          &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;__&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\/\&lt;/span&gt;
-              &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;----w&lt;/span&gt; |
-              &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;li&gt;Create a cron-job github action with the following content:
+```yaml
+name: Cron jobs
+on:
+schedule:
+    &lt;ul&gt;
+      &lt;li&gt;cron: ‘0 */1 * * *’ # every hour
+workflow_dispatch: # can handly trigger on Actions page
+jobs:
+lobsterss:
+runs-on: ubuntu-latest
+steps:
+        &lt;ul&gt;
+          &lt;li&gt;name: curl
+uses: wei/curl@master
+with:
+  args: https://lobsters-bot.vercel.app/api/index\?channels=go\&amp;amp;channels=ruby\&amp;amp;channels=web\&amp;amp;channels=security\&amp;amp;channels=programming\&amp;amp;channels=networking\&amp;amp;channels=linux
+```&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/stream_and_stdin,_stdout,_stderr/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/stream_and_stdin,_stdout,_stderr/</guid>
+        <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/how_to_cyclically_ping_to_an_api_endpoint_using__github_action/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/how_to_cyclically_ping_to_an_api_endpoint_using__github_action/</guid>
         
         
       </item>
     
       <item>
-        <title>Speed up Rubymine </title>
-        <description>&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# ~/Library/Preferences/RubyMine2016.&amp;lt;VERSION&amp;gt;/rubymine.vmoptions&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Xms2g&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Xmx4g&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XX&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:ReservedCodeCacheSize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;240&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;UseCompressedOops&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Restart RubyMine&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+        <title>Kitty terminal repeats  the command in output</title>
+        <description>&lt;p&gt;https://stackoverflow.com/questions/30940299/zsh-repeats-command-in-output&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/speed_up__rubymine_/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/speed_up__rubymine_/</guid>
+        <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/kitty_terminal_repeats__the_command_in_output/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/kitty_terminal_repeats__the_command_in_output/</guid>
         
         
       </item>
     
       <item>
-        <title>Slices in Rust</title>
-        <description>&lt;div class=&quot;language-rust highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello world&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;first_word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        <title>Multiple export with dot </title>
+        <description>&lt;h3 id=&quot;do-you-want-to-use-sidebaritem-instead-of-sidebaritem&quot;&gt;Do you want to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Sidebar.Item&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;SidebarItem&lt;/code&gt;?&lt;/h3&gt;
 
-&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;first_word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bytes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.as_bytes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bytes&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.iter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.enumerate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;sc&quot;&gt;' '&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Siderbar&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./sidebar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Item&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./sidebar-item&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-    &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Sidebar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Item&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/multiple_export_with_dot_/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/multiple_export_with_dot_/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>lazyloading images</title>
+        <description>&lt;p&gt;Làm thế nào để lazy load img?
+What: lazy load nghĩa là mình không load resource nào đó trước khi mình thật sự cần đến chúng.
+Why: Page load time tốt hơn, tiết kiệm được bandwidth, trải nghiệm người dùng mượt hơn.
+How:
+Legacy: Thay vì set url ở src , chuyển thành attribute data-src . Gán class foo  cho các img cần lazy load. On scroll, resize, orientation change, chọn .foo , dựa vào offset hoặc boundingRect để xác định img đang nằm trong viewport -&amp;gt; switch data-src thành src để tiến hành load và remove class.
+Modern: Tương tự như trên, nhưng dùng Intersection Observer API để observe và trigger load (Không support IE)
+Pitfalls:
+Layout Reflow: Do img chưa được load có height bằng 0 (và width có thể chưa xác định) nên khi img được load, nó sẽ trigger reflow (page content được sắp xếp lại để nhường chỗ cho img vừa được load). Việc này ngoài gây ra trải nghiệm người dùng kém thì nó còn ảnh hưởng để performance, vì khi trigger reflow thì browser sẽ trigger quá trình calculate layout và rendering pipeline phía sau đó nữa. Solution: Dùng placeholder để thế chỗ cho img chưa được load. Nếu biết dimension, có thể set fixed dimension cho container. Nếu biết được aspect ratio, có thể dùng inline placeholder bằng png hoặc svg, hay thậm chí là CSS. Nhưng khỏe nhất và xịn nhất thì dùng Low-quality image placeholders (LQIPs), cái này nhiều asset source sẽ generate ra sẵn khi bạn upload, còn không có thì hãy đi vận động hành lang để có :vayvay:
+No javascript: Lưu ý cần cung cấp fallback (noscript) trong trường hợp người dùng tắt js hoặc không load đc js vẫn có thể thấy được img. Cái này cũng có issue của riêng nó, nhưng có lẽ sẽ đề cập ở một post nào đó khác.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Source: Webuild&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/lazyloading_images/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/lazyloading_images/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>JAVA_HOME and libexec/java_home</title>
+        <description>&lt;h3 id=&quot;get-the-list-of-available-jdks&quot;&gt;Get the list of available JDKs&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;/usr/libexec/java_home &lt;span class=&quot;nt&quot;&gt;-V&lt;/span&gt;
+Matching Java Virtual Machines &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;5&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
+    15.0.1, x86_64:     &lt;span class=&quot;s2&quot;&gt;&quot;OpenJDK 15.0.1&quot;&lt;/span&gt;        /Users/namtx/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home
+    13.0.5, x86_64:     &lt;span class=&quot;s2&quot;&gt;&quot;Zulu 13.35.17&quot;&lt;/span&gt; /Users/namtx/Library/Java/JavaVirtualMachines/azul-13.0.5/Contents/Home
+    11.0.9.1, x86_64:   &lt;span class=&quot;s2&quot;&gt;&quot;Zulu 11.43.55&quot;&lt;/span&gt; /Users/namtx/Library/Java/JavaVirtualMachines/azul-11.0.9.1/Contents/Home
+    1.8.0_275, x86_64:  &lt;span class=&quot;s2&quot;&gt;&quot;AdoptOpenJDK 8&quot;&lt;/span&gt;        /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+    1.8.0_272, x86_64:  &lt;span class=&quot;s2&quot;&gt;&quot;Zulu 8.50.0.21&quot;&lt;/span&gt;        /Users/namtx/Library/Java/JavaVirtualMachines/azul-1.8.0_272/Contents/Home
+
+/Users/namtx/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;specific-jdk-version-by-libexecjava_home&quot;&gt;Specific JDK version by libexec/java_home&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;/usr/libexec/java_home &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; 11.0.9.1&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;java &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;
+openjdk version &lt;span class=&quot;s2&quot;&gt;&quot;11.0.9.1&quot;&lt;/span&gt; 2020-11-04 LTS
+OpenJDK Runtime Environment Zulu11.43+55-CA &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;build 11.0.9.1+1-LTS&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+OpenJDK 64-Bit Server VM Zulu11.43+55-CA &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;build 11.0.9.1+1-LTS, mixed mode&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/slices_in__rust/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/slices_in__rust/</guid>
+        <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/java_home_and_libexec_java_home/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/java_home_and_libexec_java_home/</guid>
         
         
       </item>
