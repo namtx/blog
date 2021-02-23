@@ -5,15 +5,15 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Feb 2021 09:34:52 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2021 09:34:52 +0000</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2021 15:30:56 +0000</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2021 15:30:56 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
         <title>Test issues-to-blog action</title>
-        <description>&lt;h1 id=&quot;test-issues-to-blog-actions&quot;&gt;Test issues-to-blog actions&lt;/h1&gt;
-
-&lt;p&gt;https://github.com/marketplace/actions/issues-to-blog-post-action&lt;/p&gt;
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
@@ -25,14 +25,13 @@
     
       <item>
         <title>Tab management in Kitty terminal</title>
-        <description>&lt;h1&gt;🐱&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl shift + t&lt;/code&gt;: new tab&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cmd shift + i&lt;/code&gt;: change tab title&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;shift + tab&lt;/code&gt;: next tab&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl shift + tab&lt;/code&gt;: previous tab&lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 8532CD&quot;&gt;kitty&lt;/span&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: E97FE5&quot;&gt;terminal&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
@@ -44,7 +43,11 @@
     
       <item>
         <title>Install RVM on MacOS</title>
-        <description>&lt;p&gt;https://nrogap.medium.com/install-rvm-in-macos-step-by-step-d3b3c236953b&lt;/p&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: b517d1&quot;&gt;ruby&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
@@ -56,7 +59,13 @@
     
       <item>
         <title>How to open Alfred preferences window?</title>
-        <description>&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘ + , &lt;/code&gt; to open Alfred preferences window&lt;/p&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 07C617&quot;&gt;macos&lt;/span&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: AF70A4&quot;&gt;shortcut&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
@@ -68,16 +77,13 @@
     
       <item>
         <title>Describe table in PostgresQL </title>
-        <description>&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; 
-   &lt;span class=&quot;k&quot;&gt;table_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-   &lt;span class=&quot;k&quot;&gt;column_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-   &lt;span class=&quot;n&quot;&gt;data_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;is_nullable&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; 
-   &lt;span class=&quot;n&quot;&gt;information_schema&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; 
-   &lt;span class=&quot;k&quot;&gt;table_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'compensations'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: f9d0c4&quot;&gt;database&lt;/span&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: cc3eef&quot;&gt;postgresql&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
@@ -89,10 +95,11 @@
     
       <item>
         <title>Git clone with submodules</title>
-        <description>&lt;p&gt;https://stackoverflow.com/a/4438292&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone &lt;span class=&quot;nt&quot;&gt;--recursive&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-j8&lt;/span&gt; repository_url 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 05c66c&quot;&gt;git&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
@@ -104,30 +111,13 @@
     
       <item>
         <title>How to cyclically ping to an API endpoint using Github action</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Create a cron-job github action with the following content:
-```yaml
-name: Cron jobs
-on:
-schedule:
-    &lt;ul&gt;
-      &lt;li&gt;cron: ‘0 */1 * * *’ # every hour
-workflow_dispatch: # can handly trigger on Actions page
-jobs:
-lobsterss:
-runs-on: ubuntu-latest
-steps:
-        &lt;ul&gt;
-          &lt;li&gt;name: curl
-uses: wei/curl@master
-with:
-  args: https://lobsters-bot.vercel.app/api/index\?channels=go\&amp;amp;channels=ruby\&amp;amp;channels=web\&amp;amp;channels=security\&amp;amp;channels=programming\&amp;amp;channels=networking\&amp;amp;channels=linux
-```&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: DCEAD6&quot;&gt;devops&lt;/span&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 22ADD3&quot;&gt;hack&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
@@ -139,7 +129,11 @@ with:
     
       <item>
         <title>Kitty terminal repeats  the command in output</title>
-        <description>&lt;p&gt;https://stackoverflow.com/questions/30940299/zsh-repeats-command-in-output&lt;/p&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: E97FE5&quot;&gt;terminal&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
@@ -151,13 +145,11 @@ with:
     
       <item>
         <title>Multiple export with dot </title>
-        <description>&lt;h3 id=&quot;do-you-want-to-use-sidebaritem-instead-of-sidebaritem&quot;&gt;Do you want to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Sidebar.Item&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;SidebarItem&lt;/code&gt;?&lt;/h3&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Siderbar&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./sidebar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Item&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./sidebar-item&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Sidebar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Item&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: f298a4&quot;&gt;js&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
@@ -169,19 +161,13 @@ with:
     
       <item>
         <title>lazyloading images</title>
-        <description>&lt;p&gt;Làm thế nào để lazy load img?
-What: lazy load nghĩa là mình không load resource nào đó trước khi mình thật sự cần đến chúng.
-Why: Page load time tốt hơn, tiết kiệm được bandwidth, trải nghiệm người dùng mượt hơn.
-How:
-Legacy: Thay vì set url ở src , chuyển thành attribute data-src . Gán class foo  cho các img cần lazy load. On scroll, resize, orientation change, chọn .foo , dựa vào offset hoặc boundingRect để xác định img đang nằm trong viewport -&amp;gt; switch data-src thành src để tiến hành load và remove class.
-Modern: Tương tự như trên, nhưng dùng Intersection Observer API để observe và trigger load (Không support IE)
-Pitfalls:
-Layout Reflow: Do img chưa được load có height bằng 0 (và width có thể chưa xác định) nên khi img được load, nó sẽ trigger reflow (page content được sắp xếp lại để nhường chỗ cho img vừa được load). Việc này ngoài gây ra trải nghiệm người dùng kém thì nó còn ảnh hưởng để performance, vì khi trigger reflow thì browser sẽ trigger quá trình calculate layout và rendering pipeline phía sau đó nữa. Solution: Dùng placeholder để thế chỗ cho img chưa được load. Nếu biết dimension, có thể set fixed dimension cho container. Nếu biết được aspect ratio, có thể dùng inline placeholder bằng png hoặc svg, hay thậm chí là CSS. Nhưng khỏe nhất và xịn nhất thì dùng Low-quality image placeholders (LQIPs), cái này nhiều asset source sẽ generate ra sẵn khi bạn upload, còn không có thì hãy đi vận động hành lang để có :vayvay:
-No javascript: Lưu ý cần cung cấp fallback (noscript) trong trường hợp người dùng tắt js hoặc không load đc js vẫn có thể thấy được img. Cái này cũng có issue của riêng nó, nhưng có lẽ sẽ đề cập ở một post nào đó khác.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Source: Webuild&lt;/p&gt;
+        <description>&lt;p&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: 792da8&quot;&gt;css&lt;/span&gt;
+  
+  	&lt;span class=&quot;issue-label&quot; style=&quot;background-color: C2D3D7&quot;&gt;frontend&lt;/span&gt;
+  
+&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
