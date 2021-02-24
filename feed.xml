@@ -5,9 +5,38 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Feb 2021 15:52:04 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2021 15:52:04 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 02:15:41 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 02:15:41 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>After deploy</title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #DCEAD6&quot;&gt;devops&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;có mấy thứ thôi:
+làm sao để biết dc health của system:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;uptime&lt;/strong&gt; để biết là work or not —&amp;gt; uptime check, healthcheck solution&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;metrics&lt;/strong&gt; để biết tình trạng capacity, state, performance
+làm sao để biết được feature này khi running có bung lỗi hay là không?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;error tracking&lt;/strong&gt;: để catch dc exception immediately with more details&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;log system&lt;/strong&gt; để store những level khác ERROR như là info, warn, debug nhằm xem dc hết context xung quanh cái error đó
+làm sao để biết là feature này nhanh chậm là do đâu? bottle-neck chỗ đít nào của system gây ra perf issue?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;APM/tracing system&lt;/strong&gt;: dùng instrument để identify transaction, móc nối với các linked service như DB/cache để biết dc detail latency khi đi qua từng cụm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;làm sao để biết dc tất cả issue bên trên kia kịp thời &amp;amp; đúng lúc —&amp;gt; oncall/alerting solution, bắn noti, gọi dt đến mình, notification ngay trên smartphone&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/after_deploy/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/after_deploy/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Test issues-to-blog action</title>
@@ -214,37 +243,6 @@ with:
         <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/multiple_export_with_dot_/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/multiple_export_with_dot_/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>lazyloading images</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #792da8&quot;&gt;css&lt;/span&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #C2D3D7&quot;&gt;frontend&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;Làm thế nào để lazy load img?
-What: lazy load nghĩa là mình không load resource nào đó trước khi mình thật sự cần đến chúng.
-Why: Page load time tốt hơn, tiết kiệm được bandwidth, trải nghiệm người dùng mượt hơn.
-How:
-Legacy: Thay vì set url ở src , chuyển thành attribute data-src . Gán class foo  cho các img cần lazy load. On scroll, resize, orientation change, chọn .foo , dựa vào offset hoặc boundingRect để xác định img đang nằm trong viewport -&amp;gt; switch data-src thành src để tiến hành load và remove class.
-Modern: Tương tự như trên, nhưng dùng Intersection Observer API để observe và trigger load (Không support IE)
-Pitfalls:
-Layout Reflow: Do img chưa được load có height bằng 0 (và width có thể chưa xác định) nên khi img được load, nó sẽ trigger reflow (page content được sắp xếp lại để nhường chỗ cho img vừa được load). Việc này ngoài gây ra trải nghiệm người dùng kém thì nó còn ảnh hưởng để performance, vì khi trigger reflow thì browser sẽ trigger quá trình calculate layout và rendering pipeline phía sau đó nữa. Solution: Dùng placeholder để thế chỗ cho img chưa được load. Nếu biết dimension, có thể set fixed dimension cho container. Nếu biết được aspect ratio, có thể dùng inline placeholder bằng png hoặc svg, hay thậm chí là CSS. Nhưng khỏe nhất và xịn nhất thì dùng Low-quality image placeholders (LQIPs), cái này nhiều asset source sẽ generate ra sẵn khi bạn upload, còn không có thì hãy đi vận động hành lang để có :vayvay:
-No javascript: Lưu ý cần cung cấp fallback (noscript) trong trường hợp người dùng tắt js hoặc không load đc js vẫn có thể thấy được img. Cái này cũng có issue của riêng nó, nhưng có lẽ sẽ đề cập ở một post nào đó khác.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Source: Webuild&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/lazyloading_images/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/lazyloading_images/</guid>
         
         
       </item>
