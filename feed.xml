@@ -5,9 +5,26 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Feb 2021 01:18:07 +0000</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 01:18:07 +0000</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2021 01:33:35 +0000</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2021 01:33:35 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Reading queue</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Sairyss/domain-driven-hexagon&quot;&gt;https://github.com/Sairyss/domain-driven-hexagon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/reading_queue/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/reading_queue/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Pure bash collections</title>
@@ -218,23 +235,6 @@ with:
         <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/how_to_cyclically_ping_to_an_api_endpoint_using__github_action/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/how_to_cyclically_ping_to_an_api_endpoint_using__github_action/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kitty terminal repeats  the command in output</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #E97FE5&quot;&gt;terminal&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;https://stackoverflow.com/questions/30940299/zsh-repeats-command-in-output&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/kitty_terminal_repeats__the_command_in_output/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/kitty_terminal_repeats__the_command_in_output/</guid>
         
         
       </item>
