@@ -5,9 +5,24 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Feb 2021 02:15:41 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 02:15:41 +0000</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2021 01:18:07 +0000</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2021 01:18:07 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Pure bash collections</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/dylanaraps/pure-bash-bible&quot;&gt;https://github.com/dylanaraps/pure-bash-bible&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/pure_bash_collections/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/pure_bash_collections/</guid>
+        
+        
+      </item>
     
       <item>
         <title>After deploy</title>
@@ -220,29 +235,6 @@ with:
         <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/kitty_terminal_repeats__the_command_in_output/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/kitty_terminal_repeats__the_command_in_output/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Multiple export with dot </title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #f298a4&quot;&gt;js&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;h3 id=&quot;do-you-want-to-use-sidebaritem-instead-of-sidebaritem&quot;&gt;Do you want to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Sidebar.Item&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;SidebarItem&lt;/code&gt;?&lt;/h3&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Siderbar&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./sidebar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Item&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./sidebar-item&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Sidebar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Item&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/multiple_export_with_dot_/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/multiple_export_with_dot_/</guid>
         
         
       </item>
