@@ -5,13 +5,17 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Feb 2021 01:33:35 +0000</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 01:33:35 +0000</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2021 07:57:03 +0000</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2021 07:57:03 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
         <title>Reading queue</title>
         <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #cc7c37&quot;&gt;Book&lt;/span&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #E68DF5&quot;&gt;bookmark&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;ul&gt;
@@ -37,6 +41,21 @@
         <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/pure_bash_collections/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/pure_bash_collections/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Kitty 😸, tab pane resize</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Command + r&lt;/code&gt; and follow the instructions&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/kitty_-,_tab_pane_resize/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/kitty_-,_tab_pane_resize/</guid>
         
         
       </item>
@@ -193,48 +212,6 @@ làm sao để biết là feature này nhanh chậm là do đâu? bottle-neck ch
         <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/git_clone_with_submodules/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/git_clone_with_submodules/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to cyclically ping to an API endpoint using Github action</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #DCEAD6&quot;&gt;devops&lt;/span&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #22ADD3&quot;&gt;hack&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Create a cron-job github action with the following content:
-```yaml
-name: Cron jobs
-on:
-schedule:
-    &lt;ul&gt;
-      &lt;li&gt;cron: ‘0 */1 * * *’ # every hour
-workflow_dispatch: # can handly trigger on Actions page
-jobs:
-lobsterss:
-runs-on: ubuntu-latest
-steps:
-        &lt;ul&gt;
-          &lt;li&gt;name: curl
-uses: wei/curl@master
-with:
-  args: https://lobsters-bot.vercel.app/api/index\?channels=go\&amp;amp;channels=ruby\&amp;amp;channels=web\&amp;amp;channels=security\&amp;amp;channels=programming\&amp;amp;channels=networking\&amp;amp;channels=linux
-```&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/how_to_cyclically_ping_to_an_api_endpoint_using__github_action/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/how_to_cyclically_ping_to_an_api_endpoint_using__github_action/</guid>
         
         
       </item>
