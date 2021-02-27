@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Feb 2021 07:09:16 +0000</pubDate>
-    <lastBuildDate>Sat, 27 Feb 2021 07:09:16 +0000</lastBuildDate>
+    <pubDate>Sat, 27 Feb 2021 07:44:57 +0000</pubDate>
+    <lastBuildDate>Sat, 27 Feb 2021 07:44:57 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -23,6 +23,30 @@ unrar x path/to/file.rar
         <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/how_to_unrar_a__file/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/how_to_unrar_a__file/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Fast-charge iPhone and iPad with MacBook chargers?</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;Apple says the following iOS devices are compatible with the 18W, 20W, 29W, 30W, 61W, 87W, and 96W adapters for fast charging:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iPhone 8, iPhone 8 Plus, and later&lt;/li&gt;
+  &lt;li&gt;iPad Pro 12.9-inch (1st generation and later)&lt;/li&gt;
+  &lt;li&gt;iPad Pro 11-inch (1st generation and later)&lt;/li&gt;
+  &lt;li&gt;iPad Pro 10.5-inch&lt;/li&gt;
+  &lt;li&gt;iPad Air 3rd generation and later&lt;/li&gt;
+  &lt;li&gt;iPad mini 5th generation&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/fast-charge_i_phone_and_i_pad_with__mac_book_chargers/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/fast-charge_i_phone_and_i_pad_with__mac_book_chargers/</guid>
         
         
       </item>
@@ -182,34 +206,6 @@ làm sao để biết là feature này nhanh chậm là do đâu? bottle-neck ch
         <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/how_to_open__alfred_preferences_window/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/how_to_open__alfred_preferences_window/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Describe table in PostgresQL </title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #f9d0c4&quot;&gt;database&lt;/span&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #cc3eef&quot;&gt;postgresql&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; 
-   &lt;span class=&quot;k&quot;&gt;table_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-   &lt;span class=&quot;k&quot;&gt;column_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-   &lt;span class=&quot;n&quot;&gt;data_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;n&quot;&gt;is_nullable&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; 
-   &lt;span class=&quot;n&quot;&gt;information_schema&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; 
-   &lt;span class=&quot;k&quot;&gt;table_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'compensations'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/describe_table_in__postgres_ql_/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/describe_table_in__postgres_ql_/</guid>
         
         
       </item>
