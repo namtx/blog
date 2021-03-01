@@ -5,9 +5,32 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Feb 2021 07:44:57 +0000</pubDate>
-    <lastBuildDate>Sat, 27 Feb 2021 07:44:57 +0000</lastBuildDate>
+    <pubDate>Mon, 01 Mar 2021 02:50:25 +0000</pubDate>
+    <lastBuildDate>Mon, 01 Mar 2021 02:50:25 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>RestTemplate debug options</title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #ADE619&quot;&gt;java&lt;/span&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #aaffbf&quot;&gt;spring&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# application.properties&lt;/span&gt;
+
+logging.level.org.apache.http&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;DEBUG
+logging.level.httpclient.wire&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;DEBUG
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/rest_template_debug_options/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/rest_template_debug_options/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to unrar a  file?</title>
@@ -187,25 +210,6 @@ làm sao để biết là feature này nhanh chậm là do đâu? bottle-neck ch
         <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/install_rvm_on__mac_os/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/install_rvm_on__mac_os/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to open Alfred preferences window?</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #07C617&quot;&gt;macos&lt;/span&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #AF70A4&quot;&gt;shortcut&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;⌘ + , &lt;/code&gt; to open Alfred preferences window&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/how_to_open__alfred_preferences_window/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/how_to_open__alfred_preferences_window/</guid>
         
         
       </item>
