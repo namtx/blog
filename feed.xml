@@ -5,9 +5,31 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Mar 2021 02:50:25 +0000</pubDate>
-    <lastBuildDate>Mon, 01 Mar 2021 02:50:25 +0000</lastBuildDate>
+    <pubDate>Thu, 04 Mar 2021 08:05:13 +0000</pubDate>
+    <lastBuildDate>Thu, 04 Mar 2021 08:05:13 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>😻 Hints in kitty</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kitty_mod + p&amp;gt;e&lt;/code&gt; : Open URL in brows&lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt;r&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kitty_mod + p&amp;gt;l&lt;/code&gt; : copy and paste &lt;code class=&quot;highlighter-rouge&quot;&gt;l&lt;/code&gt;ine&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kitty_mod + p&amp;gt;n&lt;/code&gt; : Copy and paste something match to line &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt;umber, eg: src/test.tsx:101&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kitty_mod + p&amp;gt;h&lt;/code&gt; : Copy and paste something like a &lt;code class=&quot;highlighter-rouge&quot;&gt;h&lt;/code&gt;ash, eg: commit hash&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kitty_mod + p&amp;gt;w&lt;/code&gt; : Copy and paste words&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kitty_mod + p&amp;gt;f&lt;/code&gt; : Copy and paste file path&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/__hints_in_kitty/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/__hints_in_kitty/</guid>
+        
+        
+      </item>
     
       <item>
         <title>RestTemplate debug options</title>
@@ -193,23 +215,6 @@ làm sao để biết là feature này nhanh chậm là do đâu? bottle-neck ch
         <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/tab_management_in__kitty_terminal/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/tab_management_in__kitty_terminal/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Install RVM on MacOS</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #b517d1&quot;&gt;ruby&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;https://nrogap.medium.com/install-rvm-in-macos-step-by-step-d3b3c236953b&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/install_rvm_on__mac_os/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/install_rvm_on__mac_os/</guid>
         
         
       </item>
