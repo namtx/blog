@@ -5,9 +5,26 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Mar 2021 08:05:13 +0000</pubDate>
-    <lastBuildDate>Thu, 04 Mar 2021 08:05:13 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Mar 2021 01:30:14 +0000</pubDate>
+    <lastBuildDate>Mon, 15 Mar 2021 01:30:14 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Thundering herd problem</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;In computer science, the thundering herd problem occurs when a large number of processes or threads waiting for an event are awoken when that event occurs, but only one process is able to handle the event. When the processes wake up, they will each try to handle the event, but only one will win. All processes will compete for resources, possibly freezing the computer, until the herd is calmed down again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Thundering_herd_problem&quot;&gt;wikipedia&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/thundering_herd_problem/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/thundering_herd_problem/</guid>
+        
+        
+      </item>
     
       <item>
         <title>😻 Hints in kitty</title>
@@ -189,32 +206,6 @@ làm sao để biết là feature này nhanh chậm là do đâu? bottle-neck ch
         <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/test_issues-to-blog_action/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/test_issues-to-blog_action/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tab management in Kitty terminal</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #8532CD&quot;&gt;kitty&lt;/span&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #E97FE5&quot;&gt;terminal&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;h1&gt;🐱&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl shift + t&lt;/code&gt;: new tab&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cmd shift + i&lt;/code&gt;: change tab title&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;shift + tab&lt;/code&gt;: next tab&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl shift + tab&lt;/code&gt;: previous tab&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/tab_management_in__kitty_terminal/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/tab_management_in__kitty_terminal/</guid>
         
         
       </item>
