@@ -5,13 +5,38 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Mar 2021 01:30:14 +0000</pubDate>
-    <lastBuildDate>Mon, 15 Mar 2021 01:30:14 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Mar 2021 01:44:30 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Mar 2021 01:44:30 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title></title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #b60205&quot;&gt;Unix&lt;/span&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #E6F510&quot;&gt;bash&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;Using &lt;code class=&quot;highlighter-rouge&quot;&gt;tr&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;test&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;tr&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&quot;'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 17 Mar 2021 01:44:30 +0000</pubDate>
+        <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Thundering herd problem</title>
         <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #b60205&quot;&gt;Unix&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;p&gt;In computer science, the thundering herd problem occurs when a large number of processes or threads waiting for an event are awoken when that event occurs, but only one process is able to handle the event. When the processes wake up, they will each try to handle the event, but only one will win. All processes will compete for resources, possibly freezing the computer, until the herd is calmed down again.&lt;/p&gt;
@@ -189,23 +214,6 @@ làm sao để biết là feature này nhanh chậm là do đâu? bottle-neck ch
         <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/after_deploy/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/after_deploy/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Test issues-to-blog action</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;h1 id=&quot;test-issues-to-blog-actions&quot;&gt;Test issues-to-blog actions&lt;/h1&gt;
-
-&lt;p&gt;https://github.com/marketplace/actions/issues-to-blog-post-action&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/test_issues-to-blog_action/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/test_issues-to-blog_action/</guid>
         
         
       </item>
