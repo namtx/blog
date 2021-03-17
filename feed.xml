@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Mar 2021 01:44:30 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Mar 2021 01:44:30 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Mar 2021 04:43:43 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Mar 2021 04:43:43 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,9 +25,28 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 17 Mar 2021 01:44:30 +0000</pubDate>
+        <pubDate>Wed, 17 Mar 2021 04:43:43 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>AAA - in testing</title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #48A324&quot;&gt;software&lt;/span&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #F3B062&quot;&gt;test&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;AAA stands for &lt;code class=&quot;highlighter-rouge&quot;&gt;Arrange - Act - Assert&lt;/code&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/aaa_-_in_testing/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/aaa_-_in_testing/</guid>
         
         
       </item>
@@ -185,35 +204,6 @@ unrar x path/to/file.rar
         <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/kitty_-,_tab_pane_resize/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/kitty_-,_tab_pane_resize/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>After deploy</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #DCEAD6&quot;&gt;devops&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;có mấy thứ thôi:
-làm sao để biết dc health của system:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;uptime&lt;/strong&gt; để biết là work or not —&amp;gt; uptime check, healthcheck solution&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;metrics&lt;/strong&gt; để biết tình trạng capacity, state, performance
-làm sao để biết được feature này khi running có bung lỗi hay là không?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;error tracking&lt;/strong&gt;: để catch dc exception immediately with more details&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;log system&lt;/strong&gt; để store những level khác ERROR như là info, warn, debug nhằm xem dc hết context xung quanh cái error đó
-làm sao để biết là feature này nhanh chậm là do đâu? bottle-neck chỗ đít nào của system gây ra perf issue?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;APM/tracing system&lt;/strong&gt;: dùng instrument để identify transaction, móc nối với các linked service như DB/cache để biết dc detail latency khi đi qua từng cụm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;làm sao để biết dc tất cả issue bên trên kia kịp thời &amp;amp; đúng lúc —&amp;gt; oncall/alerting solution, bắn noti, gọi dt đến mình, notification ngay trên smartphone&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/after_deploy/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/after_deploy/</guid>
         
         
       </item>
