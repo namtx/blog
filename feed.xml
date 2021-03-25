@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Mar 2021 08:26:44 +0000</pubDate>
-    <lastBuildDate>Thu, 18 Mar 2021 08:26:44 +0000</lastBuildDate>
+    <pubDate>Thu, 25 Mar 2021 02:53:36 +0000</pubDate>
+    <lastBuildDate>Thu, 25 Mar 2021 02:53:36 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,7 +25,7 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 18 Mar 2021 08:26:44 +0000</pubDate>
+        <pubDate>Thu, 25 Mar 2021 02:53:36 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
         
@@ -33,8 +33,36 @@
       </item>
     
       <item>
+        <title>HTTP/2</title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #2423F8&quot;&gt;HTTP&lt;/span&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #EEE921&quot;&gt;gRPC&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The best option available in HTTP/1.1 is pipelining. Pipelining means that although requests can share a connection, they must queue up one after the other until the request in front completes. HTTP/2 improved pipelining by using connection multiplexing. Multiplexing allows for multiple requests to be sent on the same connection and at the same time.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Source: https://blog.cloudflare.com/moving-k8s-communication-to-grpc/&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/http_2/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/http_2/</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Switch case in bash </title>
         <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #E6F510&quot;&gt;bash&lt;/span&gt;
   
 &lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conf&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
@@ -277,30 +305,6 @@ unrar x path/to/file.rar
         <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/how_to_unrar_a__file/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/how_to_unrar_a__file/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fast-charge iPhone and iPad with MacBook chargers?</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;Apple says the following iOS devices are compatible with the 18W, 20W, 29W, 30W, 61W, 87W, and 96W adapters for fast charging:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;iPhone 8, iPhone 8 Plus, and later&lt;/li&gt;
-  &lt;li&gt;iPad Pro 12.9-inch (1st generation and later)&lt;/li&gt;
-  &lt;li&gt;iPad Pro 11-inch (1st generation and later)&lt;/li&gt;
-  &lt;li&gt;iPad Pro 10.5-inch&lt;/li&gt;
-  &lt;li&gt;iPad Air 3rd generation and later&lt;/li&gt;
-  &lt;li&gt;iPad mini 5th generation&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/fast-charge_i_phone_and_i_pad_with__mac_book_chargers/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/fast-charge_i_phone_and_i_pad_with__mac_book_chargers/</guid>
         
         
       </item>
