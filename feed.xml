@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Mar 2021 16:33:35 +0000</pubDate>
-    <lastBuildDate>Wed, 31 Mar 2021 16:33:35 +0000</lastBuildDate>
+    <pubDate>Tue, 13 Apr 2021 10:01:19 +0000</pubDate>
+    <lastBuildDate>Tue, 13 Apr 2021 10:01:19 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,9 +25,24 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 31 Mar 2021 16:33:35 +0000</pubDate>
+        <pubDate>Tue, 13 Apr 2021 10:01:19 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>NewRelic vs DataDog architect</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/114534423-2de6ac00-9c79-11eb-9bcb-39f5cb038e03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/new_relic_vs__data_dog_architect/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/new_relic_vs__data_dog_architect/</guid>
         
         
       </item>
@@ -323,29 +338,6 @@
         <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/__hints_in_kitty/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/__hints_in_kitty/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>RestTemplate debug options</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #ADE619&quot;&gt;java&lt;/span&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #aaffbf&quot;&gt;spring&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# application.properties&lt;/span&gt;
-
-logging.level.org.apache.http&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;DEBUG
-logging.level.httpclient.wire&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;DEBUG
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/rest_template_debug_options/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/rest_template_debug_options/</guid>
         
         
       </item>
