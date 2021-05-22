@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Apr 2021 06:44:57 +0000</pubDate>
-    <lastBuildDate>Mon, 19 Apr 2021 06:44:57 +0000</lastBuildDate>
+    <pubDate>Sat, 22 May 2021 14:58:48 +0000</pubDate>
+    <lastBuildDate>Sat, 22 May 2021 14:58:48 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,9 +25,26 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 19 Apr 2021 06:44:57 +0000</pubDate>
+        <pubDate>Sat, 22 May 2021 14:58:48 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>leetcode - all nodes distance k</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/119230843-1b994100-bb48-11eb-995a-bd2968cb8ab3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/119230853-28b63000-bb48-11eb-8307-52b4610d35ad.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/leetcode_-_all_nodes_distance_k/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/leetcode_-_all_nodes_distance_k/</guid>
         
         
       </item>
@@ -424,25 +441,6 @@
         <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/aaa_-_in_testing/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/aaa_-_in_testing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Thundering herd problem</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #b60205&quot;&gt;Unix&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;In computer science, the thundering herd problem occurs when a large number of processes or threads waiting for an event are awoken when that event occurs, but only one process is able to handle the event. When the processes wake up, they will each try to handle the event, but only one will win. All processes will compete for resources, possibly freezing the computer, until the herd is calmed down again.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Thundering_herd_problem&quot;&gt;wikipedia&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/thundering_herd_problem/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/thundering_herd_problem/</guid>
         
         
       </item>
