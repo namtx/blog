@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 May 2021 14:58:48 +0000</pubDate>
-    <lastBuildDate>Sat, 22 May 2021 14:58:48 +0000</lastBuildDate>
+    <pubDate>Sat, 29 May 2021 15:51:57 +0000</pubDate>
+    <lastBuildDate>Sat, 29 May 2021 15:51:57 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,9 +25,24 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 22 May 2021 14:58:48 +0000</pubDate>
+        <pubDate>Sat, 29 May 2021 15:51:57 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Multiply strings</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/120076548-4d725080-c0d0-11eb-8425-a5d1385976cf.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/multiply_strings/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/multiply_strings/</guid>
         
         
       </item>
@@ -422,25 +437,6 @@
         <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/how_to_compile_cpp_file_with_c++11/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/how_to_compile_cpp_file_with_c++11/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>AAA - in testing</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #48A324&quot;&gt;software&lt;/span&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #F3B062&quot;&gt;test&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;AAA stands for &lt;code class=&quot;highlighter-rouge&quot;&gt;Arrange - Act - Assert&lt;/code&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/aaa_-_in_testing/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/aaa_-_in_testing/</guid>
         
         
       </item>
