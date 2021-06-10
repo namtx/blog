@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Jun 2021 07:13:14 +0000</pubDate>
-    <lastBuildDate>Mon, 07 Jun 2021 07:13:14 +0000</lastBuildDate>
+    <pubDate>Thu, 10 Jun 2021 05:15:24 +0000</pubDate>
+    <lastBuildDate>Thu, 10 Jun 2021 05:15:24 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,9 +25,23 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 07 Jun 2021 07:13:14 +0000</pubDate>
+        <pubDate>Thu, 10 Jun 2021 05:15:24 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Margin collapsing</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/margin_collapsing/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/margin_collapsing/</guid>
         
         
       </item>
@@ -349,103 +363,6 @@
         <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/switch_case_in_bash_/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/switch_case_in_bash_/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>SSL</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;Hỏi SSL: Moi người cho mình hỏi, hiện tại mình thấy có 2 dạng handle SSL cho server:&lt;/p&gt;
-
-&lt;p&gt;Một là ở app level, ví dụ khi init một cái HTTP server thì chỉ định luôn SSL cert, ví dụ:&lt;/p&gt;
-
-&lt;p&gt;err := http.ListenAndServeTLS(“:443”, “server.crt”, “server.key”, nil)&lt;/p&gt;
-
-&lt;p&gt;Một cách khác là handle ở Nginx (về lý thuyết chắc nó cũng là app level nhỉ):&lt;/p&gt;
-
-&lt;p&gt;server {
-    listen              443 ssl;
-    server_name         www.example.com;
-    ssl_certificate     www.example.com.crt;
-    ssl_certificate_key www.example.com.key;&lt;/p&gt;
-
-&lt;p&gt;Còn dạng thứ hai là dùng SSL thông qua gateway provider như Cloudflare, hay Heroku.&lt;/p&gt;
-
-&lt;p&gt;Không biết ưu nhược điểm của từng cách trên là như thế nào nhỉ?&lt;/p&gt;
-
-&lt;p&gt;3 kiểu trên thật ra cũng là dạng 1 cái app nào đó load cert lên rồi handleshake client request thôi. Khác nhau chính là setup ở layer nào thôi&lt;/p&gt;
-
-&lt;p&gt;Khác nhau cách 1 và 2/3 là:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;1 là App level hoặc có thể hiểu là Business level&lt;/li&gt;
-  &lt;li&gt;2/3 là dạng proxy level. Lúc này proxy service (nginx/cloudflare,aws certificates + gateway) sẽ keep connection tới server bằng bất cứ kiểu gì, ko nhất thiết phải là https&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Khác nhau cách 1/2 và 3 là:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Tự mình handle/configure&lt;/li&gt;
-  &lt;li&gt;External provider service&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ưu nhược&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Cách 1:&lt;/li&gt;
-  &lt;li&gt;Ưu điểm:
-    &lt;ul&gt;
-      &lt;li&gt;Gọn, nhẹ, 1 binary/docker có thể có tất cả.&lt;/li&gt;
-      &lt;li&gt;Không cần setup thêm service ngoài để làm ssl&lt;/li&gt;
-      &lt;li&gt;Có thể custom code để làm nhiều trò theo ý thích&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Nhược:
-    &lt;ul&gt;
-      &lt;li&gt;Mix giữa business level và connection level&lt;/li&gt;
-      &lt;li&gt;Về căn bản thì nhiều business app không care tới ssl gì, allowanced domains support là gì, vì nó ko phải trách nhiệm của app&lt;/li&gt;
-      &lt;li&gt;Renew invalid các kiểu manually. Hoặc nếu tự động thì phải có cơ chế expitre + re-load&lt;/li&gt;
-      &lt;li&gt;Hạn chế khi share certificate, hoặc proxy 1 request vào nhiều app&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Cách 2:&lt;/li&gt;
-  &lt;li&gt;Ưu điểm:
-    * Tách business level ra khỏi infra level
-    * Dễ dàng setup 1 proxy nhiều ssl để routing nhiều app khác nhau
-    * Dễ dàng setup 1 proxy 1 ssl để routing routing khác nhau
-    * Khi cần thay thế/renew thì chỉ thay đổi/configure proxy level thôi, ko cần stop business level
-    * Đa phần support hết case rồi, chỉ học cách configure thôi&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nhược điểm:
-    * Phải setup service riêng để handle request trước khi nó vào app
-    * Nếu làm mấy thứ phức tạp quá (VD build 1 cái proxy service đem bán) thì nhiều khi ko support hết, phải tự viết thêm
-    * Phải học cách config nhiều để turning performance&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Cách 3:&lt;/li&gt;
-  &lt;li&gt;Ưu điểm:
-    &lt;ul&gt;
-      &lt;li&gt;Infra nhà người ta, mình ko cần mantain&lt;/li&gt;
-      &lt;li&gt;Configure đễ hơn cách 2&lt;/li&gt;
-      &lt;li&gt;Có nhiều món ăn kèm như chống ddos, cache bla bla mà ko cần setup/plugin thêm&lt;/li&gt;
-      &lt;li&gt;External provider sẽ face ra internet chứ ko phải cụm server của mình. Nên nếu có gì sảy ra thì external provider sẽ bị tấn công chứ ko phải mình&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Nhược điểm
-    &lt;ul&gt;
-      &lt;li&gt;Tiền khi nhu cầu vượt basic&lt;/li&gt;
-      &lt;li&gt;Mình không quản lý/control hết tất cả&lt;/li&gt;
-      &lt;li&gt;Phải setup cái flow hợp lý khi dev/test/prod&lt;/li&gt;
-      &lt;li&gt;Không phải cái gì cũng như mình muốn, mà mình phải follow cái nó cung cấp&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Source: webuild&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/ssl/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/ssl/</guid>
         
         
       </item>
