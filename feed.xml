@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Jun 2021 15:01:36 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Jun 2021 15:01:36 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Jun 2021 15:59:40 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Jun 2021 15:59:40 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,7 +25,7 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 11 Jun 2021 15:01:36 +0000</pubDate>
+        <pubDate>Fri, 11 Jun 2021 15:59:40 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
         
@@ -114,8 +114,9 @@
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ds&lt;/code&gt; - delete surrounding&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;🔔 the &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; is used to denote the current cursor place
- | Old text | Command | New text ~ |
+&lt;p&gt;🔔 the &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; is used to denote the current cursor place&lt;/p&gt;
+
+&lt;p&gt;| Old text | Command | New text ~ |
 |:—- | :—–: | ——:| 
 |”Hello &lt;em&gt;world!”|           ds” |        Hello world!|
 | (123+4&lt;/em&gt;56)/2  |            ds)|         123+456/2|
