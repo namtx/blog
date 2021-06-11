@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Jun 2021 05:15:24 +0000</pubDate>
-    <lastBuildDate>Thu, 10 Jun 2021 05:15:24 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Jun 2021 05:34:47 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Jun 2021 05:34:47 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,9 +25,40 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 10 Jun 2021 05:15:24 +0000</pubDate>
+        <pubDate>Fri, 11 Jun 2021 05:34:47 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to pass a function into useState in ReactJS</title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #c5def5&quot;&gt;ReactJS&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
+&lt;p&gt;As we already know, the Dispatch function from the &lt;code class=&quot;highlighter-rouge&quot;&gt;useState&lt;/code&gt; hook accept a function as an async dispatcher. So, we can’t pass a function into this dispatcher as expected. Example:&lt;/p&gt;
+
+&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// then&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// ❌  we can't do this, as the returned value of `doSomething` will be pass into the `callback` value.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
+&lt;p&gt;We need to pass a function that returns a function that returns a function 😂&lt;/p&gt;
+
+&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// then&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// ✅ correct!&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/how_to_pass_a_function_into_use_state_in__react_js/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/how_to_pass_a_function_into_use_state_in__react_js/</guid>
         
         
       </item>
@@ -327,42 +358,6 @@
         <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/http_2/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/http_2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Switch case in bash </title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #E6F510&quot;&gt;bash&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conf&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in
-    &lt;/span&gt;nvim&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      nvim ~/.config/nvim/init.vim
-      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
-    skhd&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      nvim ~/.config/skhd/skhdrc
-      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
-    kitty&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      nvim ~/.config/kitty/kitty.conf
-      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
-    zsh&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      nvim ~/.zshrc
-      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      nvim &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/switch_case_in_bash_/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/switch_case_in_bash_/</guid>
         
         
       </item>
