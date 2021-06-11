@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Jun 2021 14:58:48 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Jun 2021 14:58:48 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Jun 2021 15:00:49 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Jun 2021 15:00:49 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,7 +25,7 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 11 Jun 2021 14:58:48 +0000</pubDate>
+        <pubDate>Fri, 11 Jun 2021 15:00:49 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
         
@@ -47,6 +47,29 @@
         <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/tldr_-__vim_help/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/tldr_-__vim_help/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Markdown - table</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Markdown table alignment
+    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/markdown_-_table/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/markdown_-_table/</guid>
         
         
       </item>
@@ -304,21 +327,6 @@
         <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/binary__heap/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/binary__heap/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>NewRelic vs DataDog architect</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/114534423-2de6ac00-9c79-11eb-9bcb-39f5cb038e03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/new_relic_vs__data_dog_architect/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/new_relic_vs__data_dog_architect/</guid>
         
         
       </item>
