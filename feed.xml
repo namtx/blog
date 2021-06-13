@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Jun 2021 13:13:27 +0000</pubDate>
-    <lastBuildDate>Sun, 13 Jun 2021 13:13:27 +0000</lastBuildDate>
+    <pubDate>Sun, 13 Jun 2021 13:41:44 +0000</pubDate>
+    <lastBuildDate>Sun, 13 Jun 2021 13:41:44 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,7 +25,7 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 13 Jun 2021 13:13:27 +0000</pubDate>
+        <pubDate>Sun, 13 Jun 2021 13:41:44 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
         
@@ -50,6 +50,38 @@
       </item>
     
       <item>
+        <title>Cheatsheets - yabai</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;h3 id=&quot;layout&quot;&gt;Layout&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yabai &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; config layout bsp | stack | float
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/Cheatsheets+-+yabai/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/Cheatsheets+-+yabai/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>[Test] - issues 👍 </title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;Test&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/5BTest-5D+-+issues+-F0-9F-91-8D+/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/5BTest-5D+-+issues+-F0-9F-91-8D+/</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Draw - algorithms</title>
         <description>&lt;p&gt;
   
@@ -62,6 +94,23 @@
         <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/draw_-_algorithms/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/draw_-_algorithms/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Draw - algorithms</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/121770278-a0e5a380-cb92-11eb-9af6-3129adab667a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/121779912-26377b00-cbc8-11eb-9236-966215ef6f8a.jpeg&quot; alt=&quot;IMG_AAA95CB80110-1&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/Draw+-+algorithms/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/Draw+-+algorithms/</guid>
         
         
       </item>
@@ -92,6 +141,36 @@
         <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/vim-surround_cheatsheets/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/vim-surround_cheatsheets/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>vim-surround cheatsheets</title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #91ECC6&quot;&gt;cheatsheets&lt;/span&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #c4ef83&quot;&gt;vim&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ds&lt;/code&gt; - delete surrounding&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cs&lt;/code&gt; - change surrounding&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ys&lt;/code&gt; - “you surround”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;S&lt;/code&gt; - visual mode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Shift + V&lt;/code&gt; to go to Visual mode, and &lt;code class=&quot;highlighter-rouge&quot;&gt;S&amp;lt;div class=&quot;important&quot;&amp;gt;&lt;/code&gt; to wrap content inside. 🚀&lt;/p&gt;
+
+&lt;p&gt;💡 &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;elete everything &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt;nside &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&lt;/code&gt; by sequence: &lt;code class=&quot;highlighter-rouge&quot;&gt;di&quot;&lt;/code&gt; or anything surround&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/vim-surround+cheatsheets/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/vim-surround+cheatsheets/</guid>
         
         
       </item>
@@ -134,92 +213,6 @@
         <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/markdown_-_table/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/markdown_-_table/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to pass a function into useState in ReactJS</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #c5def5&quot;&gt;ReactJS&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
-&lt;p&gt;As we already know, the Dispatch function from the &lt;code class=&quot;highlighter-rouge&quot;&gt;useState&lt;/code&gt; hook accept a function as an async dispatcher. So, we can’t pass a function into this dispatcher as expected. Example:&lt;/p&gt;
-
-&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// then&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// ❌  we can't do this, as the returned value of `doSomething` will be pass into the `callback` value.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
-&lt;p&gt;We need to pass a function that returns a function that returns a function 😂&lt;/p&gt;
-
-&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// then&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// ✅ correct!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/how_to_pass_a_function_into_use_state_in__react_js/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/how_to_pass_a_function_into_use_state_in__react_js/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Margin collapsing</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/margin_collapsing/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/margin_collapsing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>XSRF protection with Axios</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;/signup&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;xsrfCookieName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;XSRF-TOKEN&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;xsrfHeaderName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;X-XSRF-TOKEN&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// send the request&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;axios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/xsrf_protection_with__axios/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/xsrf_protection_with__axios/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Multiply strings</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/120076548-4d725080-c0d0-11eb-8425-a5d1385976cf.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/120076772-7c3cf680-c0d1-11eb-8cae-e5e637613648.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/multiply_strings/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/multiply_strings/</guid>
         
         
       </item>
