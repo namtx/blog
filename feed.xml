@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 12 Jun 2021 14:51:20 +0000</pubDate>
-    <lastBuildDate>Sat, 12 Jun 2021 14:51:20 +0000</lastBuildDate>
+    <pubDate>Sun, 13 Jun 2021 09:48:28 +0000</pubDate>
+    <lastBuildDate>Sun, 13 Jun 2021 09:48:28 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,9 +25,43 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 12 Jun 2021 14:51:20 +0000</pubDate>
+        <pubDate>Sun, 13 Jun 2021 09:48:28 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cheatsheets - yabai</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;h3 id=&quot;layout&quot;&gt;Layout&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yabai &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; config layout bsp | stack | float
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/cheatsheets_-_yabai/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/cheatsheets_-_yabai/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Draw - algorithms</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/121770278-a0e5a380-cb92-11eb-9af6-3129adab667a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/121779912-26377b00-cbc8-11eb-9236-966215ef6f8a.jpeg&quot; alt=&quot;IMG_AAA95CB80110-1&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/draw_-_algorithms/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/draw_-_algorithms/</guid>
         
         
       </item>
@@ -184,40 +218,6 @@
         <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/xsrf_protection_with__axios/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/xsrf_protection_with__axios/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Multiply strings</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/120076548-4d725080-c0d0-11eb-8425-a5d1385976cf.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/120076772-7c3cf680-c0d1-11eb-8cae-e5e637613648.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/multiply_strings/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/multiply_strings/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>leetcode - all nodes distance k</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/119230843-1b994100-bb48-11eb-995a-bd2968cb8ab3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/119230853-28b63000-bb48-11eb-8307-52b4610d35ad.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/leetcode_-_all_nodes_distance_k/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/leetcode_-_all_nodes_distance_k/</guid>
         
         
       </item>
