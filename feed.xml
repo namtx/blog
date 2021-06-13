@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Jun 2021 09:48:52 +0000</pubDate>
-    <lastBuildDate>Sun, 13 Jun 2021 09:48:52 +0000</lastBuildDate>
+    <pubDate>Sun, 13 Jun 2021 10:17:43 +0000</pubDate>
+    <lastBuildDate>Sun, 13 Jun 2021 10:17:43 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,7 +25,7 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 13 Jun 2021 09:48:52 +0000</pubDate>
+        <pubDate>Sun, 13 Jun 2021 10:17:43 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
         
@@ -79,6 +79,34 @@
         <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/_draw-_algorithms/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/_draw-_algorithms/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>vim-surround cheatsheets</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ds&lt;/code&gt; - delete surrounding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;🔔 the &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; is used to denote the current cursor place&lt;/p&gt;
+
+&lt;p&gt;| Old text | Command | New text ~ |
+|—- | —– | —— | 
+| “Hello &lt;em&gt;world!” | ds” | Hello world!|
+| (123+4&lt;/em&gt;56)/2  | ds)| 123+456/2 |
+| &amp;lt;div&amp;gt;Yo!*&amp;lt;/div&amp;gt; | dst | Yo! |&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cs&lt;/code&gt; - change surrounding&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/vim-surround_cheatsheets/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/vim-surround_cheatsheets/</guid>
         
         
       </item>
@@ -194,30 +222,6 @@
         <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/margin_collapsing/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/margin_collapsing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>XSRF protection with Axios</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;/signup&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;xsrfCookieName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;XSRF-TOKEN&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;xsrfHeaderName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;X-XSRF-TOKEN&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// send the request&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;axios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/xsrf_protection_with__axios/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/xsrf_protection_with__axios/</guid>
         
         
       </item>
