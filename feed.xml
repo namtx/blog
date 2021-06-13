@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Jun 2021 10:17:52 +0000</pubDate>
-    <lastBuildDate>Sun, 13 Jun 2021 10:17:52 +0000</lastBuildDate>
+    <pubDate>Sun, 13 Jun 2021 10:22:44 +0000</pubDate>
+    <lastBuildDate>Sun, 13 Jun 2021 10:22:44 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -25,7 +25,7 @@
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26314887/13211226&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 13 Jun 2021 10:17:52 +0000</pubDate>
+        <pubDate>Sun, 13 Jun 2021 10:22:44 +0000</pubDate>
         <link>https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/2021-3-17-shell_script_-_remove_first_and_last_quote_(-)_from_a_variable/</guid>
         
@@ -101,7 +101,15 @@
 | &amp;lt;div&amp;gt;Yo!*&amp;lt;/div&amp;gt; | dst | Yo! |&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cs&lt;/code&gt; - change surrounding&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ys&lt;/code&gt; - “you surround”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;S&lt;/code&gt; - visual mode&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Shift + V&lt;/code&gt; to go to Visual mode, and &lt;code class=&quot;highlighter-rouge&quot;&gt;S&amp;lt;div class=&quot;important&quot;&amp;gt;&lt;/code&gt; to wrap content inside. 🚀&lt;/p&gt;
+
+&lt;p&gt;💡 &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;elete everything &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt;nside &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&lt;/code&gt; by sequence: &lt;code class=&quot;highlighter-rouge&quot;&gt;di&quot;&lt;/code&gt; or anything surround&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
