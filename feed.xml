@@ -5,9 +5,37 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Jun 2021 13:56:22 +0000</pubDate>
-    <lastBuildDate>Sun, 13 Jun 2021 13:56:22 +0000</lastBuildDate>
+    <pubDate>Mon, 14 Jun 2021 01:12:58 +0000</pubDate>
+    <lastBuildDate>Mon, 14 Jun 2021 01:12:58 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>AIO Cheatsheets 📚 </title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #91ECC6&quot;&gt;cheatsheets&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;h3 id=&quot;macos-key-symbols-&quot;&gt;MacOS key symbols 🍏&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;⌘ means Command&lt;/li&gt;
+  &lt;li&gt;⌥ means Option (also called “Alt”)&lt;/li&gt;
+  &lt;li&gt;⌃ means Control&lt;/li&gt;
+  &lt;li&gt;⇧ means Shift&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;firefox-&quot;&gt;Firefox 🦊&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;⌘⇧ + O - Open bookmarks 🔖&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/AIO+Cheatsheets+-F0-9F-93-9A+/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/AIO+Cheatsheets+-F0-9F-93-9A+/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cheatsheets - yabai</title>
@@ -195,23 +223,6 @@
         <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/XSRF+protection+with+Axios/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/XSRF+protection+with+Axios/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Multiply strings</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/120076548-4d725080-c0d0-11eb-8425-a5d1385976cf.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/120076772-7c3cf680-c0d1-11eb-8cae-e5e637613648.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/Multiply+strings/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/Multiply+strings/</guid>
         
         
       </item>
