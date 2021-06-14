@@ -5,12 +5,12 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Jun 2021 18:27:13 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Jun 2021 18:27:13 +0000</lastBuildDate>
+    <pubDate>Mon, 14 Jun 2021 18:42:59 +0000</pubDate>
+    <lastBuildDate>Mon, 14 Jun 2021 18:42:59 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
-        <title></title>
+        <title>Algorithms - Binary Tree - Level order traversal II</title>
         <description>&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
 
 &lt;p&gt;https://leetcode.com/problems/binary-tree-level-order-traversal-ii/&lt;/p&gt;
@@ -114,11 +114,13 @@
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;sketch&quot;&gt;Sketch&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/121942511-c33a1580-cd7a-11eb-8762-1868cb079b76.jpeg&quot; alt=&quot;dfs&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/121942492-bd443480-cd7a-11eb-82cd-1e2788b7966d.jpeg&quot; alt=&quot;bfs&quot; /&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 14 Jun 2021 18:27:13 +0000</pubDate>
-        <link>https://namtx.github.io/2021/2021-06-14-algorithms-binary-tree-level-order-trarversal-ii/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/2021-06-14-algorithms-binary-tree-level-order-trarversal-ii/</guid>
+        <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/algorithms-binary-tree-level-order-trarversal-ii/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/algorithms-binary-tree-level-order-trarversal-ii/</guid>
         
         
       </item>
