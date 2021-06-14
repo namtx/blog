@@ -1,0 +1,104 @@
+<h3 id="problem">Problem</h3>
+
+<p>https://leetcode.com/problems/binary-tree-level-order-traversal-ii/</p>
+
+<h3 id="dfs">DFS</h3>
+
+<p>With <code class="highlighter-rouge">DFS</code> approach, we will recursively traverse the Binary Tree. For each node we traversal, we check if the List<Integer> of its level is already present or not.</Integer></p>
+<ul>
+  <li>If not, create a new one and push the node value into.</li>
+  <li>If yes, just push the node value</li>
+</ul>
+
+<p>After traversed all nodes in the tree, we just need to <code class="highlighter-rouge">reverse</code> the <code class="highlighter-rouge">List&lt;List&lt;Integer&gt;&gt;</code> we have by <code class="highlighter-rouge">Collections.reverse</code> method.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;&gt;</span> <span class="nf">levelOrderBottom</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">List</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;&gt;</span> <span class="n">ret</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+
+        <span class="n">dfs</span><span class="o">(</span><span class="n">ret</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">root</span><span class="o">);</span>
+
+        <span class="nc">Collections</span><span class="o">.</span><span class="na">reverse</span><span class="o">(</span><span class="n">ret</span><span class="o">);</span>
+
+        <span class="k">return</span> <span class="n">ret</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">dfs</span><span class="o">(</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;&gt;</span> <span class="n">ret</span><span class="o">,</span> <span class="kt">int</span> <span class="n">level</span><span class="o">,</span> <span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">root</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span>
+            <span class="k">return</span><span class="o">;</span>
+
+        <span class="k">if</span> <span class="o">(</span><span class="n">ret</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">==</span> <span class="n">level</span><span class="o">)</span> <span class="o">{</span>
+            <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">newList</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+            <span class="n">newList</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">val</span><span class="o">);</span>
+            <span class="n">ret</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">level</span><span class="o">,</span> <span class="n">newList</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+            <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">existingList</span> <span class="o">=</span> <span class="n">ret</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">level</span><span class="o">);</span>
+            <span class="n">existingList</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">val</span><span class="o">);</span>
+            <span class="n">ret</span><span class="o">.</span><span class="na">set</span><span class="o">(</span><span class="n">level</span><span class="o">,</span> <span class="n">existingList</span><span class="o">);</span>
+        <span class="o">}</span>
+
+        <span class="n">dfs</span><span class="o">(</span><span class="n">ret</span><span class="o">,</span> <span class="n">level</span> <span class="o">+</span> <span class="mi">1</span><span class="o">,</span> <span class="n">root</span><span class="o">.</span><span class="na">left</span><span class="o">);</span>
+        <span class="n">dfs</span><span class="o">(</span><span class="n">ret</span><span class="o">,</span> <span class="n">level</span> <span class="o">+</span> <span class="mi">1</span><span class="o">,</span> <span class="n">root</span><span class="o">.</span><span class="na">right</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h4 id="submission-detail">Submission detail</h4>
+
+<blockquote>
+  <p>Your runtime breaks 100% java submssion.</p>
+</blockquote>
+
+<h3 id="bfs">BFS</h3>
+
+<p>In this approach, we will use a <code class="highlighter-rouge">Stack</code> to save nodes in the current level, for each level, we just pop them all and push the node value into a an array.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;&gt;</span> <span class="nf">levelOrderBottom</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">List</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;&gt;</span> <span class="n">ret</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+
+        <span class="n">bfs</span><span class="o">(</span><span class="n">ret</span><span class="o">,</span> <span class="n">root</span><span class="o">);</span>
+
+        <span class="nc">Collections</span><span class="o">.</span><span class="na">reverse</span><span class="o">(</span><span class="n">ret</span><span class="o">);</span>
+
+        <span class="k">return</span> <span class="n">ret</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">bfs</span><span class="o">(</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;&gt;</span> <span class="n">ret</span><span class="o">,</span> <span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">root</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="k">return</span><span class="o">;</span>
+
+        <span class="nc">Stack</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">TreeNode</span><span class="o">&gt;&gt;</span> <span class="n">nodes</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Stack</span><span class="o">&lt;&gt;();</span>
+        <span class="nc">List</span><span class="o">&lt;</span><span class="nc">TreeNode</span><span class="o">&gt;</span> <span class="n">initial</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+        <span class="n">initial</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">root</span><span class="o">);</span>
+        <span class="n">nodes</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">initial</span><span class="o">);</span>
+
+        <span class="k">while</span> <span class="o">(!</span><span class="n">nodes</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">())</span> <span class="o">{</span>
+            <span class="nc">List</span><span class="o">&lt;</span><span class="nc">TreeNode</span><span class="o">&gt;</span> <span class="n">traversing</span> <span class="o">=</span> <span class="n">nodes</span><span class="o">.</span><span class="na">pop</span><span class="o">();</span>
+            <span class="nc">List</span><span class="o">&lt;</span><span class="nc">TreeNode</span><span class="o">&gt;</span> <span class="n">next</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+            <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">arr</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+
+            <span class="k">for</span> <span class="o">(</span><span class="nc">TreeNode</span> <span class="n">node</span> <span class="o">:</span> <span class="n">traversing</span><span class="o">)</span> <span class="o">{</span>
+                <span class="n">arr</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">val</span><span class="o">);</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+                    <span class="n">next</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">);</span>
+                <span class="o">}</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+                    <span class="n">next</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">);</span>
+                <span class="o">}</span>
+            <span class="o">}</span>
+            <span class="n">ret</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">arr</span><span class="o">);</span>
+            <span class="k">if</span> <span class="o">(</span><span class="n">next</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">())</span> <span class="k">break</span><span class="o">;</span>
+            <span class="n">nodes</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">next</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h4 id="submission-detail-1">Submission detail</h4>
+
+<blockquote>
+  <p>Runtime: 1 ms, faster than 85.55% of Java online submissions for Binary Tree Level Order Traversal II.</p>
+</blockquote>
+
+<h3 id="sketch">Sketch</h3>
+
