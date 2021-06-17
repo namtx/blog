@@ -5,9 +5,43 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Jun 2021 18:42:59 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Jun 2021 18:42:59 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Jun 2021 03:29:06 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Jun 2021 03:29:06 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>AIO Cheatsheets 📚 </title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #91ECC6&quot;&gt;cheatsheets&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;h3 id=&quot;macos-key-symbols-&quot;&gt;MacOS key symbols 🍏&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;⌘ means Command&lt;/li&gt;
+  &lt;li&gt;⌥ means Option (also called “Alt”)&lt;/li&gt;
+  &lt;li&gt;⌃ means Control&lt;/li&gt;
+  &lt;li&gt;⇧ means Shift&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;firefox-&quot;&gt;Firefox 🦊&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;⌘⇧ + O - Open bookmarks 🔖. Use ⌃ + f  to start finding 🔬&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;macos-&quot;&gt;MacOS 🍎&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Quickly look up one word in Dictionary?
+Just hover on that word and press &lt;code class=&quot;highlighter-rouge&quot;&gt;⌃⌘ + D&lt;/code&gt; (Ctrl + Command + D) - D stands for [D]ictionary&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/AIO+Cheatsheets+-F0-9F-93-9A+/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/AIO+Cheatsheets+-F0-9F-93-9A+/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Algorithms - Binary Tree - Level order traversal II</title>
@@ -287,30 +321,6 @@
         <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/Margin+collapsing/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/Margin+collapsing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>XSRF protection with Axios</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;/signup&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;xsrfCookieName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;XSRF-TOKEN&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;xsrfHeaderName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;X-XSRF-TOKEN&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// send the request&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;axios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/XSRF+protection+with+Axios/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/XSRF+protection+with+Axios/</guid>
         
         
       </item>
