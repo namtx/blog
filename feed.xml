@@ -5,9 +5,43 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Jun 2021 14:35:59 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Jun 2021 14:35:59 +0000</lastBuildDate>
+    <pubDate>Mon, 21 Jun 2021 05:06:15 +0000</pubDate>
+    <lastBuildDate>Mon, 21 Jun 2021 05:06:15 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>How to set contrast text color for button?</title>
+        <description>&lt;p&gt;
+  
+  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #792da8&quot;&gt;css&lt;/span&gt;
+  
+&lt;/p&gt;
+&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;@function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;color-yiq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;$color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;$support-black&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$neutral-gray-dark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;$white&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$yiq-text-light&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;$r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;$g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;$b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;nv&quot;&gt;$yiq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;299&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$g&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;587&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;114&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;@if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$yiq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$yiq-contrasted-threshold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;@return&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$support-black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;@else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;@return&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/How+to+set+contrast+text+color+for+button-3F/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/How+to+set+contrast+text+color+for+button-3F/</guid>
+        
+        
+      </item>
     
       <item>
         <title>AIO Cheatsheets 📚 </title>
@@ -307,20 +341,6 @@ Just hover on that word and press &lt;code class=&quot;highlighter-rouge&quot;&g
         <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/How+to+pass+a+function+into+useState+in+ReactJS/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/How+to+pass+a+function+into+useState+in+ReactJS/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Margin collapsing</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/Margin+collapsing/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/Margin+collapsing/</guid>
         
         
       </item>
