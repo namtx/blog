@@ -5,9 +5,27 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Jun 2021 05:06:15 +0000</pubDate>
-    <lastBuildDate>Mon, 21 Jun 2021 05:06:15 +0000</lastBuildDate>
+    <pubDate>Wed, 23 Jun 2021 05:05:39 +0000</pubDate>
+    <lastBuildDate>Wed, 23 Jun 2021 05:05:39 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>Flame graph 🔥📊</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.brendangregg.com/blog/2014-06-12/java-flame-graphs.html&quot;&gt;https://www.brendangregg.com/blog/2014-06-12/java-flame-graphs.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kipalog.com/posts/Cach-nhin-flamegraph&quot;&gt;https://kipalog.com/posts/Cach-nhin-flamegraph&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/Flame+graph+-F0-9F-94-A5-F0-9F-93-8A/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/Flame+graph+-F0-9F-94-A5-F0-9F-93-8A/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to set contrast text color for button?</title>
@@ -310,37 +328,6 @@ Just hover on that word and press &lt;code class=&quot;highlighter-rouge&quot;&g
         <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/Markdown+-+table/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/Markdown+-+table/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to pass a function into useState in ReactJS</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #c5def5&quot;&gt;ReactJS&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
-&lt;p&gt;As we already know, the Dispatch function from the &lt;code class=&quot;highlighter-rouge&quot;&gt;useState&lt;/code&gt; hook accept a function as an async dispatcher. So, we can’t pass a function into this dispatcher as expected. Example:&lt;/p&gt;
-
-&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// then&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// ❌  we can't do this, as the returned value of `doSomething` will be pass into the `callback` value.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
-&lt;p&gt;We need to pass a function that returns a function that returns a function 😂&lt;/p&gt;
-
-&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// then&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;setCallback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// ✅ correct!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/How+to+pass+a+function+into+useState+in+ReactJS/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/How+to+pass+a+function+into+useState+in+ReactJS/</guid>
         
         
       </item>
