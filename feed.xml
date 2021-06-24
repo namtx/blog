@@ -5,9 +5,26 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Jun 2021 05:05:39 +0000</pubDate>
-    <lastBuildDate>Wed, 23 Jun 2021 05:05:39 +0000</lastBuildDate>
+    <pubDate>Thu, 24 Jun 2021 10:36:51 +0000</pubDate>
+    <lastBuildDate>Thu, 24 Jun 2021 10:36:51 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>List to review</title>
+        <description>&lt;p&gt;
+  
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1️⃣ Advanced knowledge and best programming practices of web application vulnerabilities such as cross-site scripting (XSS), session hijacking, SQL injection, CSRF (Cross-Site Request Forgery), OWASP Top 10, and other attack vectors.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/List+to+review/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/List+to+review/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Flame graph 🔥📊</title>
@@ -305,29 +322,6 @@ Just hover on that word and press &lt;code class=&quot;highlighter-rouge&quot;&g
         <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2021/TLDR+-+Vim+help/</link>
         <guid isPermaLink="true">https://namtx.github.io/2021/TLDR+-+Vim+help/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Markdown - table</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Markdown table alignment
-    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/Markdown+-+table/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/Markdown+-+table/</guid>
         
         
       </item>
