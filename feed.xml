@@ -5,78 +5,10 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Jun 2021 10:04:33 +0000</pubDate>
-    <lastBuildDate>Fri, 25 Jun 2021 10:04:33 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Jun 2021 08:54:16 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Jun 2021 08:54:16 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
-      <item>
-        <title>List to review</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;1️⃣ Advanced knowledge and best programming practices of web application vulnerabilities such as cross-site scripting (XSS), session hijacking, SQL injection, CSRF (Cross-Site Request Forgery), OWASP Top 10, and other attack vectors.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/List+to+review/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/List+to+review/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Flame graph 🔥📊</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.brendangregg.com/blog/2014-06-12/java-flame-graphs.html&quot;&gt;https://www.brendangregg.com/blog/2014-06-12/java-flame-graphs.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kipalog.com/posts/Cach-nhin-flamegraph&quot;&gt;https://kipalog.com/posts/Cach-nhin-flamegraph&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/Flame+graph+-F0-9F-94-A5-F0-9F-93-8A/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/Flame+graph+-F0-9F-94-A5-F0-9F-93-8A/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to set contrast text color for button?</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #792da8&quot;&gt;css&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;@function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;color-yiq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;$color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;$support-black&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$neutral-gray-dark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;$white&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$yiq-text-light&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;$r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;$g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;$b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-  &lt;span class=&quot;nv&quot;&gt;$yiq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;299&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$g&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;587&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;114&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;@if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$yiq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$yiq-contrasted-threshold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;@return&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$support-black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;@else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;@return&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/How+to+set+contrast+text+color+for+button-3F/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/How+to+set+contrast+text+color+for+button-3F/</guid>
-        
-        
-      </item>
     
       <item>
         <title>Initilize a ReactJS project with Typescript from scratch</title>
@@ -289,40 +221,6 @@ module.exports = {
       </item>
     
       <item>
-        <title>AIO Cheatsheets 📚 </title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #91ECC6&quot;&gt;cheatsheets&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;h3 id=&quot;macos-key-symbols-&quot;&gt;MacOS key symbols 🍏&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;⌘ means Command&lt;/li&gt;
-  &lt;li&gt;⌥ means Option (also called “Alt”)&lt;/li&gt;
-  &lt;li&gt;⌃ means Control&lt;/li&gt;
-  &lt;li&gt;⇧ means Shift&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;firefox-&quot;&gt;Firefox 🦊&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;⌘⇧ + O - Open bookmarks 🔖. Use ⌃ + f  to start finding 🔬&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;macos-&quot;&gt;MacOS 🍎&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Quickly look up one word in Dictionary?
-Just hover on that word and press &lt;code class=&quot;highlighter-rouge&quot;&gt;⌃⌘ + D&lt;/code&gt; (Ctrl + Command + D) - D stands for [D]ictionary&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/AIO+Cheatsheets+-F0-9F-93-9A+/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/AIO+Cheatsheets+-F0-9F-93-9A+/</guid>
-        
-        
-      </item>
-    
-      <item>
         <title>Algorithms - Binary Tree - Level order traversal II</title>
         <description>&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
 
@@ -439,80 +337,851 @@ Just hover on that word and press &lt;code class=&quot;highlighter-rouge&quot;&g
       </item>
     
       <item>
-        <title>Cheatsheets - yabai</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;h3 id=&quot;layout&quot;&gt;Layout&lt;/h3&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yabai &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; config layout bsp | stack | float
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/Cheatsheets+-+yabai/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/Cheatsheets+-+yabai/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>[Test] - issues 👍 </title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;Test&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/5BTest-5D+-+issues+-F0-9F-91-8D+/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/5BTest-5D+-+issues+-F0-9F-91-8D+/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Draw - algorithms</title>
-        <description>&lt;p&gt;
-  
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/121770278-a0e5a380-cb92-11eb-9af6-3129adab667a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/121779912-26377b00-cbc8-11eb-9236-966215ef6f8a.jpeg&quot; alt=&quot;IMG_AAA95CB80110-1&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/Draw+-+algorithms/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/Draw+-+algorithms/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>vim-surround cheatsheets</title>
-        <description>&lt;p&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #91ECC6&quot;&gt;cheatsheets&lt;/span&gt;
-  
-  &lt;span class=&quot;issue-label&quot; style=&quot;background-color: #c4ef83&quot;&gt;vim&lt;/span&gt;
-  
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ds&lt;/code&gt; - delete surrounding&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cs&lt;/code&gt; - change surrounding&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ys&lt;/code&gt; - “you surround”&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;S&lt;/code&gt; - visual mode&lt;/li&gt;
+        <title>TL;DR - Style guideline for Go packages</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Use multiple files in same packages&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Shift + V&lt;/code&gt; to go to Visual mode, and &lt;code class=&quot;highlighter-rouge&quot;&gt;S&amp;lt;div class=&quot;important&quot;&amp;gt;&lt;/code&gt; to wrap content inside. 🚀&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- doc.go       // package documentation
+- headers.go   // HTTP headers types and code
+- cookies.go   // HTTP cookies types and code
+- http.go      // HTTP client implementation, request and response types, etc.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;💡 &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;elete everything &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt;nside &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&lt;/code&gt; by sequence: &lt;code class=&quot;highlighter-rouge&quot;&gt;di&quot;&lt;/code&gt; or anything surround&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Organize by responsibility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bad:&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;// DON'T DO IT!!!&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;// User represents a user in the system.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Good:&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mngtservice&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;// User represents a user in the system.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UsersByQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ctx&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;q&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Iterator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UserIDByEmail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ctx&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;package-naming&quot;&gt;Package naming&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lowercase only&lt;/li&gt;
+  &lt;li&gt;Short, but representative names&lt;/li&gt;
+  &lt;li&gt;Avoid overly broad package name like “common” and “util”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bad:&lt;/p&gt;
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;pkgs.org/common&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;// DON'T!!!&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clean import path&lt;/li&gt;
+  &lt;li&gt;No plurals&lt;/li&gt;
+  &lt;li&gt;Renames should follow the same rules. If you are renaming the standard library, it is nice to add a &lt;code class=&quot;highlighter-rouge&quot;&gt;go&lt;/code&gt; prefix:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;gourl&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;net/url&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;s&quot;&gt;&quot;myother.com/url&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Enforce vanity URLs&lt;/li&gt;
+  &lt;li&gt;Package documentation&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;go doc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rakyll.org/style-packages/&quot;&gt;https://rakyll.org/style-packages/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2020/tldr-style-guideline-for-go-packages/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2020/tldr-style-guideline-for-go-packages/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Integrate cert-manager to k3s ingress with Google Domains</title>
+        <description>&lt;h3 id=&quot;concepts&quot;&gt;Concepts&lt;/h3&gt;
+
+&lt;h4 id=&quot;issuer&quot;&gt;Issuer&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Issuers, ClusterIssuers are k8s resources that represent CA that are able to generate signed certificates.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager.io/v1alpha2&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Issuer&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ca-issuer&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;namespace&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;mesh-system&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;ca&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;secretName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ca-key-pair&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is a simple Issuer that will sign certificates based on a private key. The certificate  stored in the secret &lt;code class=&quot;highlighter-rouge&quot;&gt;ca-key-pair&lt;/code&gt; can be used to trust newly signed certificates by this Issuer in Public Key Infrastructure (PKI) system.&lt;/p&gt;
+
+&lt;h5 id=&quot;namespaces&quot;&gt;Namespaces&lt;/h5&gt;
+&lt;p&gt;An Issuer is namespaced resource.
+If you want to create a single Issuer that can be consumed in multiple namespaces, you should consider ClusterIssuer&lt;/p&gt;
+
+&lt;h4 id=&quot;certificate&quot;&gt;Certificate&lt;/h4&gt;
+&lt;p&gt;Defines a desired x509 certificate which will be renewed and kept up to date
+When a Certificate is created, a corresponding CertificateRequest resource is created by cert-manager containing the encoded x509 certificate request.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager.io/v1alpha2&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Certificate&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;acme-crt&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;secretName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;acme-crt-secret&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;dnsNames&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;foo.example.com&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;bar.example.com&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;issuerRef&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;letencrypt-prod&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Issuer&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager.io&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This Certificate will tell cert-manager to attempt to use the Issuer named letencrypt-prod to obtain a certificate key pair for the &lt;code class=&quot;highlighter-rouge&quot;&gt;foo.example.com&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;bar.example.com&lt;/code&gt; domains.
+If successful, the resulting key and certificate will be stored in a secret named &lt;code class=&quot;highlighter-rouge&quot;&gt;acme-crt-secret&lt;/code&gt; with keys &lt;code class=&quot;highlighter-rouge&quot;&gt;tls.key&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;tls.crt&lt;/code&gt; respectively.&lt;/p&gt;
+
+&lt;h4 id=&quot;acme-orders-and-challenges&quot;&gt;ACME Orders and Challenges&lt;/h4&gt;
+&lt;p&gt;cert-manager supports requesting certificates from ACME Server including &lt;a href=&quot;https://letsencrypt.org/&quot;&gt;Let’s Encrypt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To successfully request a certificate, cert-manager must solve ACME Challenges which are completed in order to prove that the client owns the DNS addresses that are being requested.&lt;/p&gt;
+
+&lt;h5 id=&quot;orders&quot;&gt;Orders&lt;/h5&gt;
+
+&lt;p&gt;Orders resources are used by the ACME issuer to manage the lifecycle of of an ACME ‘order’ for a signed TLS certificate&lt;/p&gt;
+
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cert-manager.io/docs/installation/kubernetes/&quot;&gt;Kubernetes&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;kubectl apply &lt;span class=&quot;nt&quot;&gt;--validate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; https://github.com/jetstack/cert-manager/releases/download/v0.16.1/cert-manager.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;verification&quot;&gt;Verification&lt;/h4&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;kubectl get pods &lt;span class=&quot;nt&quot;&gt;--namespace&lt;/span&gt; cert-manager
+
+NAME                                       READY   STATUS    RESTARTS   AGE
+cert-manager-5c6866597-zw7kh               1/1     Running   0          2m
+cert-manager-cainjector-577f6d9fd7-tr77l   1/1     Running   0          2m
+cert-manager-webhook-787858fcdb-nlzsq      1/1     Running   0          2m
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Create a test Issuer&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;v1&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Namespace&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager-test&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager.io/v1alpha2&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Issuer&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;test-selfsigned&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;namespace&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager-test&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;selfSigned&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager.io/v1alpha2&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Certificate&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;selfsigned-cert&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;namespace&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager-test&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;dnsNames&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;example.com&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;secretName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;selfsigned-cert-tls&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;issuerRef&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;test-selfsigned&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Create the test resources&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;kubectl apply &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; cert-manager-test.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check the status of Certificate&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;kubectl describe certificate &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; cert-manager-test
+Status:
+  Conditions:
+    Last Transition Time:  2020-08-11T14:34:08Z
+    Message:               Certificate is up to &lt;span class=&quot;nb&quot;&gt;date &lt;/span&gt;and has not expired
+    Reason:                Ready
+    Status:                True
+    Type:                  Ready
+  Not After:               2020-11-09T14:34:07Z
+  Not Before:              2020-08-11T14:34:07Z
+  Renewal Time:            2020-10-10T14:34:07Z
+  Revision:                1
+Events:
+  Type    Reason     Age   From          Message
+  &lt;span class=&quot;nt&quot;&gt;----&lt;/span&gt;    &lt;span class=&quot;nt&quot;&gt;------&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;----&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;----&lt;/span&gt;          &lt;span class=&quot;nt&quot;&gt;-------&lt;/span&gt;
+  Normal  Issuing    42s   cert-manager  Issuing certificate as Secret does not exist
+  Normal  Generated  42s   cert-manager  Stored new private key &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;temporary Secret resource &lt;span class=&quot;s2&quot;&gt;&quot;selfsigned-cert-6pkq2&quot;&lt;/span&gt;
+  Normal  Requested  42s   cert-manager  Created new CertificateRequest resource &lt;span class=&quot;s2&quot;&gt;&quot;selfsigned-cert-nbsqw&quot;&lt;/span&gt;
+  Normal  Issuing    42s   cert-manager  The certificate has been successfully issued
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Clean up&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;k delete &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; cert-manager-test.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;configuration&quot;&gt;Configuration&lt;/h3&gt;
+&lt;p&gt;In this post, we are gonna generate Let’s Encrypt certificate which is ACME server&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cert-manager.io/docs/configuration/acme/&quot;&gt;ACME&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;setup-service-account-for-google-clouddns&quot;&gt;Setup Service Account for Google CloudDNS&lt;/h5&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PROJECT_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;gcloud config get-value project&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gcloud iam service-accounts create dns01-solver &lt;span class=&quot;nt&quot;&gt;--display-name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dns01-solver&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gcloud projects add-iam-policy-binding &lt;span class=&quot;nv&quot;&gt;$PROJECT_ID&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;--member&lt;/span&gt; serviceAccount:dns01-solver@&lt;span class=&quot;nv&quot;&gt;$PROJECT_ID&lt;/span&gt;.iam.gserviceaccount.com &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;--role&lt;/span&gt; roles/dns.admin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h5 id=&quot;create-account-secret&quot;&gt;Create account secret&lt;/h5&gt;
+&lt;p&gt;In this step, we are going to generate &lt;code class=&quot;highlighter-rouge&quot;&gt;key.json&lt;/code&gt; from google service account and save it into k8s secret&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gcloud iam service-accounts keys create key.json &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;--iam-account&lt;/span&gt; dns01-solver@&lt;span class=&quot;nv&quot;&gt;$PROJECT_ID&lt;/span&gt;.iam.gserviceaccount.com
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;kubectl &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; cert-manager create secret generic clouddns-dns01-solver-svc-acct &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;--from-file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;key.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: If you have already added the Secret but get an error: &lt;code class=&quot;highlighter-rouge&quot;&gt;...due to error processing: error getting clouddns service account: secret &quot;XXX&quot; not found&lt;/code&gt;, the Secret may be in the wrong namespace. If you’re configuring a ClusterIssuer, move the Secret to the Cluster Resource Namespace which is cert-manager by default. If you’re configuring an Issuer, the Secret should be stored in the same namespace as the Issuer resource.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So we should create &lt;code class=&quot;highlighter-rouge&quot;&gt;clouddns-dns01-solver-svc-acct&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;cert-manager&lt;/code&gt; namespace&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;key.json&lt;/code&gt; file contains credentials data, so, after generated secret from this file, we should clear it from local&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;key.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;add-your-domain-to-clouddns&quot;&gt;Add your domain to CloudDNS&lt;/h5&gt;
+
+&lt;p&gt;Access &lt;a href=&quot;https://console.cloud.google.com/net-services/dns/zones&quot;&gt;https://console.cloud.google.com/net-services/dns/zones&lt;/a&gt; to add your domain to a public zone&lt;/p&gt;
+
+&lt;p&gt;With A record point to our server IP address&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/25602820/89972264-95ca9a00-dc87-11ea-8d10-fa42d64f68de.jpg&quot; alt=&quot;https://user-images.githubusercontent.com/25602820/89972264-95ca9a00-dc87-11ea-8d10-fa42d64f68de.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;create-a-basic-issuer&quot;&gt;Create a basic Issuer&lt;/h5&gt;
+
+&lt;p&gt;For test, staging environment we will use &lt;code class=&quot;highlighter-rouge&quot;&gt;https://acme-staging-v02.api.letsencrypt.org/directory&lt;/code&gt; as ACME server, for production environment, please use
+&lt;code class=&quot;highlighter-rouge&quot;&gt;https://acme-v02.api.letsencrypt.org/directory&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager.io/v1alpha2&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ClusterIssuer&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;letencrypt-staging&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;acme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;xuannam2620@gmail.com&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# this email will be used by let's encrypt to inform us about certificate expiring&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://acme-staging-v02.api.letsencrypt.org/directory&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;privateKeySecretRef&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;letsencrypt-issuer-account-key&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;solvers&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dns01&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;clouddns&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;project&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;tf-test-xxxx&lt;/span&gt;
+          &lt;span class=&quot;s&quot;&gt;serviceAccountSecretRef&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;clouddns-dns01-solver-svc-acct&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;key.json&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;About DNS01 Challenge for Google CloudDNS please refer: &lt;a href=&quot;https://cert-manager.io/docs/configuration/acme/dns01/google/&quot;&gt;https://cert-manager.io/docs/configuration/acme/dns01/google/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Create the ClusterIssuer&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;kubectl create &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; letsencrypt-staging-issuer.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Confirm the result by&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;kubectl get clusterissuer
+NAME                         READY   AGE
+letsencrypt-staging-issuer   True    38m
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;create-a-lets-encrypt-certificate&quot;&gt;Create a Let’s Encrypt Certificate&lt;/h5&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;cert-manager.io/v1alpha2&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;namtx-dev-letsencrypt-cert&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;secretName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;namtx-dev-letsencrypt-tls&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;issuerRef&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;letsencrypt-staging-issuer&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ClusterIssuer&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;dnsNames&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;namtx.dev&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Apply it by&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;kubectl create &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; letsencrypt-staging-certificate.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Confirm by&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kubectl get cert
+NAME                         READY   SECRET                      AGE
+namtx-dev-letsencrypt-cert   True    namtx-dev-letsencrypt-tls   37m
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So, our Certificate is ready to use, let’s add it to our Ingress&lt;/p&gt;
+
+&lt;h3 id=&quot;add-certificate-to-our-ingress&quot;&gt;Add certificate to our Ingress&lt;/h3&gt;
+
+&lt;p&gt;After previous step, a certificate will be issued by Let’s Encrypt and saved into secret &lt;code class=&quot;highlighter-rouge&quot;&gt;namtx-dev-letsencrypt-tls&lt;/code&gt; (we specified the name by &lt;code class=&quot;highlighter-rouge&quot;&gt;secretName&lt;/code&gt; value in certificate yaml file)&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;networking.k8s.io/v1beta1&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Ingress&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;backend-ingress&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;namtx.dev&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;backend&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;serviceName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;backend-service&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;servicePort&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;80&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;tls&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;hosts&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;namtx.dev&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;secretName&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;namtx-dev-letsencrypt-tls&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cert-manager.io/docs/&quot;&gt;https://cert-manager.io/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2020/integrate-cert-manager-to-k3s-ingress-with-google-domains/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2020/integrate-cert-manager-to-k3s-ingress-with-google-domains/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Terraform getting started</title>
+        <description>&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;Download terraform CLI &lt;a href=&quot;https://www.terraform.io/downloads.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Unzip and move the &lt;code class=&quot;highlighter-rouge&quot;&gt;terrform&lt;/code&gt; executable file to &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/bin&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;example-with-docker&quot;&gt;Example with docker&lt;/h3&gt;
+
+&lt;div class=&quot;language-hcl highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;resource&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;docker_image&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nginx&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nginx:latest&quot;&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;keep_locally&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;resource&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;docker_container&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nginx&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;docker_image&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nginx&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;latest&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;tutorial&quot;&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;ports&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;internal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;external&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8000&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Common Commands&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;terraform init
+
+terraform plan
+
+terraform apply
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To stop the container&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;terraform destroy
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;terraform-with-google-cloud&quot;&gt;Terraform with Google Cloud&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a project on google cloud&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://console.developers.google.com/apis/library/compute.googleapis.com?authuser=1&amp;amp;project=tf-test-286005&amp;amp;folder=&amp;amp;organizationId=&quot;&gt;Enable Google Cloud Engine API for created project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Create GCP Service account key by access &lt;a href=&quot;https://console.cloud.google.com/apis/credentials/serviceaccountkey?authuser=1&amp;amp;project=tf-test-286005&quot;&gt;this&lt;/a&gt; with the Role is &lt;code class=&quot;highlighter-rouge&quot;&gt;Project-Editor&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Download the generated JSON file which contains credentials.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-hcl highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;provider&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;google&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3.5.0&quot;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;credentials&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tf-test-2760c44799d7.json&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;project&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;tf-test-286005&quot;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;region&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;us-central1&quot;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;zone&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;us-central1-c&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;resource&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;google_compute_network&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;vpc_network&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;terraform-network&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;resource&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;google_compute_instance&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;vm_instance&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;terraform-instance&quot;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;machine_type&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;f1-micro&quot;&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;boot_disk&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;initialize_params&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;debian-cloud/debian-9&quot;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;network_interface&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;network&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;google_compute_network&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;vpc_network&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;access_config&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;How to re-create instance?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;terraform taint
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;define-input-variables&quot;&gt;Define input variables&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Defining variables in &lt;code class=&quot;highlighter-rouge&quot;&gt;variables.tf&lt;/code&gt; file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-hcl highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;variable&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;project&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;variable&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;credentials_file&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;variable&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;region&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;us-central1&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;variable&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;zone&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;us-central1-c&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Whenever you run &lt;code class=&quot;highlighter-rouge&quot;&gt;terraform apply&lt;/code&gt;, Terraform will prompt you for the value for &lt;code class=&quot;highlighter-rouge&quot;&gt;project&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;credentials_file&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using variables in configuration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-hcl highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;provider&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;google&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3.5.0&quot;&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;credentials&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;credentials_file&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;project&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;project&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;region&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;region&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;zone&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;zone&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to assign variable values&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-var&lt;/code&gt; flag&lt;/li&gt;
+  &lt;li&gt;from &lt;code class=&quot;highlighter-rouge&quot;&gt;terraform.tfvars&lt;/code&gt; file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-var-file&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;from ENV &lt;code class=&quot;highlighter-rouge&quot;&gt;TF_VAR_name&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 </description>
-        <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2021/vim-surround+cheatsheets/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2021/vim-surround+cheatsheets/</guid>
+        <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2020/terraform-getting-started/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2020/terraform-getting-started/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cobra in 5 minutes</title>
+        <description>&lt;h3 id=&quot;typical-cobra-based-app&quot;&gt;Typical cobra based app&lt;/h3&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;// main.go&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;{pathToYourApp}/cmd&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;flags-parse&quot;&gt;Flags parse&lt;/h3&gt;
+
+&lt;p&gt;First we have define variables&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rootCmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cobra&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Command&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Use&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;blabla&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cobra&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Command&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;// your logic live there, right here!&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;// you can directly access above variables&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;// called by main.go&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rootCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And then, parse them&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rootCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PersistentFlags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StringVarP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;t&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rootCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PersistentFlags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StringVarP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post descritption&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rootCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PersistentFlags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StringVarP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;layout&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;l&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;post&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post layout&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rootCmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PersistentFlags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;StringArrayVarP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keywords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;keywords&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;k&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{},&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Post keywords&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2020/cobra-in-5-minutes/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2020/cobra-in-5-minutes/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Best practices for Operating Containers</title>
+        <description>&lt;h3 id=&quot;use-native-logging-mechanisms-of-container&quot;&gt;Use native logging mechanisms of container&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Write log to &lt;code class=&quot;highlighter-rouge&quot;&gt;stdout&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;stderr&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;docker logs&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Centralize logs and make them searchable: &lt;a href=&quot;https://www.fluentd.org/&quot;&gt;fluentd&lt;/a&gt;, EFK stack (Elastic Search, Fluentd, Kibana)
+&lt;img src=&quot;https://cloud.google.com/solutions/images/bp-operating-containers-log-management.svg&quot; alt=&quot;typical log management system in k8s&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;JSON logs
+    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;2018-01-01 01:01:01&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;component&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;subcomponent&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;foo.bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;level&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;WARNING&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;There is something wrong.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Log aggregator sidecar pattern
+&lt;img src=&quot;https://cloud.google.com/solutions/images/bp-operating-containers-sidecar.svg&quot; alt=&quot;sidecar pattern&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ensure-your-containers-stateless-and-immutable&quot;&gt;Ensure your containers stateless and immutable&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Externalize the container configuration (listening port, runtime options,…)&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;ConfigMap&lt;/code&gt; to run same container image across different environment&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;Secrets&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;ConfigMap&lt;/code&gt; to inject configuration in containers as environment variables or files.
+&lt;img src=&quot;https://cloud.google.com/solutions/images/bp-operating-containers-configmap.svg&quot; alt=&quot;configmap with same image&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;avoid-privileged-containers&quot;&gt;Avoid privileged containers&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;If your application must modify the host settings in order to run, modify those settings either in a sidecar container or an &lt;code class=&quot;highlighter-rouge&quot;&gt;init container&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Sidecar container does NOT need to be exposed either internal or external traffic.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;make-your-application-easy-to-monitor&quot;&gt;Make your application easy to monitor&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/metrics&lt;/code&gt; endpoint with Prometheus client library&lt;/li&gt;
+  &lt;li&gt;Sidecar pattern when your application can not instrument with a &lt;code class=&quot;highlighter-rouge&quot;&gt;/metrics&lt;/code&gt; endpoint
+&lt;img src=&quot;https://cloud.google.com/solutions/images/bp-operating-containers-monitoring.svg&quot; alt=&quot;sidecar metrics&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Expose your health of your application: Liveness, Readiness&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;avoid-running-as-root&quot;&gt;Avoid running as root&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;If you are running &lt;strong&gt;single application per container&lt;/strong&gt; and single application with single user (not root), you can grant all users write permissions to the folders and files that need to be written in, make all the other folders and files only writable by root&lt;/li&gt;
+  &lt;li&gt;Simple way to check container permission by run
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run &lt;span class=&quot;nt&quot;&gt;--user&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;$((&lt;/span&gt;RANDOM+1&lt;span class=&quot;k&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR_CONTAINER]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;carefully-image-version&quot;&gt;Carefully image version&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sematic version&lt;/li&gt;
+  &lt;li&gt;Avoid using &lt;code class=&quot;highlighter-rouge&quot;&gt;latest&lt;/code&gt; tag&lt;/li&gt;
+  &lt;li&gt;Prefer minor version over path version for automatically securities patch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com/solutions/best-practices-for-operating-containers&quot;&gt;https://cloud.google.com/solutions/best-practices-for-operating-containers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2020/best-practices-for-operating-containers/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2020/best-practices-for-operating-containers/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Arch Linux Installation guide</title>
+        <description>&lt;h1 id=&quot;verify-boot-mode&quot;&gt;Verify boot mode&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; /sys/firmware/efi/efivars
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If the command shows the directory without error, then the system is booted in UEFI mode. If the directory does not exist, the system may be booted in BIOS (or CSM) mode. If the system did not boot in the mode you desired, refer to your motherboard’s manual.&lt;/p&gt;
+
+&lt;h1 id=&quot;internet-connect&quot;&gt;Internet connect&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ip &lt;span class=&quot;nb&quot;&gt;link&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ping archlinux.org
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;partition-the-disk&quot;&gt;Partition the disk&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://namtx.github.io/assets/images/arch-k3s__Running__and_Installation_guide_-_ArchWiki.jpg&quot; alt=&quot;archwiki&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fdisk /dev/sda
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As we’re booted in BIOS so, we need &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda1&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;/mnt&lt;/code&gt; (Linux) and &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda2&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;swap&lt;/code&gt; (Linux Swap)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://namtx.github.io/assets/images/arch-k3s__Running_.jpg&quot; alt=&quot;./assets/images/arch-k3s__Running_.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkfs.ext4 /dev/sda1
+
+&lt;span class=&quot;c&quot;&gt;# make swap&lt;/span&gt;
+mkswap /dev/sda2
+swapon /dev/sda2
+
+&lt;span class=&quot;c&quot;&gt;#mount /dev/sda1 to /mnt&lt;/span&gt;
+mount /dev/sda1 /mnt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;genfstab &lt;span class=&quot;nt&quot;&gt;-U&lt;/span&gt; /mnt &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; /mnt/etc/fstab
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /mnt/etc/fstab
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://namtx.github.io/assets/images/arch-k3s__Running__and_Arch_Linux_Installation_guide.jpg&quot; alt=&quot;./assets/images/arch-k3s__Running__and_Arch_Linux_Installation_guide.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;set-timezone&quot;&gt;Set timezone&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://ipapi.co/timezone
+Asia/Ho_Chi_Minh
+
+timedatectl set-timezone Asia/Ho_Chi_Minh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;change-root&quot;&gt;Change root&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;arch-chroot /mnt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;set-locale&quot;&gt;Set locale&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Open /etc/locale.gen file and uncomment `en_US.UTF-8 UTF-8 line and then&lt;/span&gt;
+local-gen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;install-dhcpcd&quot;&gt;Install dhcpcd&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pacman &lt;span class=&quot;nt&quot;&gt;-Syu&lt;/span&gt; dhcpcd
+systemctl &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;dhcpcd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;install-bootloader&quot;&gt;Install Bootloader&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pacman &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; grub os-prober
+
+grub-install /dev/sda
+
+grub-mkconfig &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; /boot/grub/grub.cfg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;done&quot;&gt;Done&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;exit
+
+&lt;/span&gt;reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2020/archlinux-installation-guide/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2020/archlinux-installation-guide/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>k3s on vagrant</title>
+        <description>&lt;h1 id=&quot;installation&quot;&gt;Installation&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.vagrantup.com/intro/getting-started/install&quot;&gt;Install Vagrant&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;commands&quot;&gt;Commands&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vagrant up
+
+vagrant ssh
+
+vagrant halt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;k3s-on-vagrant&quot;&gt;K3s on Vagrant&lt;/h1&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# -*- mode: ruby -*-&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# vi: set ft=ruby :&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# All Vagrant configuration is done below. The &quot;2&quot; in Vagrant.configure&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# configures the configuration version (we support older styles for&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# backwards compatibility). Please don't change it unless you know what&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# you're doing.&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Vagrant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;box&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ubuntu/bionic64&quot;&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;define&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ubuntu-k3s&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;archlinux_k3s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;network&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;forwarded_port&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;guest: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8001&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;host: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8001&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;auto_correct: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;network&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;forwarded_port&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;guest: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9110&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;host: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9110&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;auto_correct: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;provider&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;virtualbox&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;vb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Ubuntu k3s&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;vb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;memory&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1024&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;vb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;cpus&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;provision&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;path: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;scripts/install_k3s.sh&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;args: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-euo&lt;/span&gt; pipefail
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;=== Install k3s ===&quot;&lt;/span&gt;
+
+curl &lt;span class=&quot;nt&quot;&gt;-sfL&lt;/span&gt; https://get.k3s.io | &lt;span class=&quot;nv&quot;&gt;K3S_KUBECONFIG_MODE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;644&quot;&lt;/span&gt; sh &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; -
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;=== Successfully install k3s ===&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;kubernetes-dashboard&quot;&gt;Kubernetes Dashboard&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kubectl apply &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.2/aio/deploy/recommended.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kubectl proxy
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2020/k3s-on-vagrant/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2020/k3s-on-vagrant/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Amazon Lambda</title>
+        <description>&lt;h4 id=&quot;provisioned-concurrency&quot;&gt;Provisioned Concurrency&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.serverless.com/blog/aws-lambda-provisioned-concurrency/&quot;&gt;AWS Lambda Provisioned Concurrency&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;configuring-a-lambda-function-to-access-resources-in-vpc&quot;&gt;Configuring a Lambda function to access resources in VPC&lt;/h4&gt;
+
+&lt;p&gt;Connect your function to private subnets to access private resources. If your function needs internet access, use NAT. 
+Connecting a function to public subnets does NOT give it internet access or a public IP address&lt;/p&gt;
+
+&lt;p&gt;When you connect to VPC, Lamda creats an Elastic Network Interface (ENI)
+Multiple functions connected to the same subnets share network interfaces&lt;/p&gt;
+
+&lt;p&gt;Permissions needed:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ec2:CreateNetworkInterface&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ec2:DescribeNetworkInterfaces&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ec2:DeleteNetworkInterface&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These persmissions included in &lt;code class=&quot;highlighter-rouge&quot;&gt;AWSLambdaVPCAccessExecutionRole&lt;/code&gt; managed policy.&lt;/p&gt;
+
+&lt;h4 id=&quot;synchronous-invocation&quot;&gt;Synchronous invocation&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;aws lambda invoke &lt;span class=&quot;nt&quot;&gt;--function-name&lt;/span&gt; my-function &lt;span class=&quot;nt&quot;&gt;--payload&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{ }'&lt;/span&gt; response.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/invocation-sync.png&quot; alt=&quot;lambda synchronous invocation&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;asynchronous-invocation&quot;&gt;Asynchronous invocation&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/features-async.png&quot; alt=&quot;asynchronous invocation&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;aws lambda invoke &lt;span class=&quot;nt&quot;&gt;--function-name&lt;/span&gt; my-function &lt;span class=&quot;nt&quot;&gt;--invocation-type&lt;/span&gt; Event &lt;span class=&quot;nt&quot;&gt;--payload&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{&quot;key&quot;: &quot;value&quot;}'&lt;/span&gt; response.json
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;StatusCode&quot;&lt;/span&gt;: 202
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;If your function returns an error, AWS will automatically retry the invoke twice, for a total of three invocations.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Dwell time&lt;/code&gt; how long your request spent in the service queue&lt;/p&gt;
+
+&lt;h4 id=&quot;poll-based-invocation&quot;&gt;Poll-Based Invocation&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Amazon Kinesis&lt;/li&gt;
+  &lt;li&gt;Amazon SQS&lt;/li&gt;
+  &lt;li&gt;Amazon DynamoDB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2019/07/02/table-invoke-lambda3.png&quot; alt=&quot;invocation types&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;function-scaling&quot;&gt;Function scaling&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/features-scaling.png&quot; alt=&quot;function scaling&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;function-scaling-with-provisioned-concurrency&quot;&gt;Function scaling with Provisioned Concurrency&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/features-scaling-provisioned.png&quot; alt=&quot;provisioned-concurrency&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;autoscaling-with-provisioned-concurrency&quot;&gt;Autoscaling with Provisioned Concurrency&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/features-scaling-provisioned-auto.png&quot; alt=&quot;provisioned-concurrency&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2020/amazon-lambda/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2020/amazon-lambda/</guid>
         
         
       </item>
