@@ -5,10 +5,76 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Jun 2021 08:54:16 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Jun 2021 08:54:16 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Jul 2021 09:31:37 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Jul 2021 09:31:37 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
+    
+      <item>
+        <title>How to setup GPG for Github account</title>
+        <description>&lt;h3 id=&quot;what-is-gpg&quot;&gt;What is GPG?&lt;/h3&gt;
+
+&lt;p&gt;GPG stands for GNU Privacy Guard. It’s widely used for signing files, allows you to send your files and messages securely over the Internet.&lt;/p&gt;
+
+&lt;p&gt;It contains two parts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Public key - used to encrypt message.&lt;/li&gt;
+  &lt;li&gt;Private key - used to decrypt encrypted message.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-github-use-it-to-verify-your-commit&quot;&gt;How Github use it to verify your commit?&lt;/h3&gt;
+
+&lt;p&gt;When creating a new GPG key, &lt;code class=&quot;highlighter-rouge&quot;&gt;gpg&lt;/code&gt; CLI will ask you your email address. Next, we update the &lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt; config to make it use the generated GPG key to encrypt the commit. 
+After pushing the commit to Github, Github verifies this commit by compraring the committer’s email address and the email address attached to the GPG key, and verified email address in your Github account.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-generate-it&quot;&gt;How to generate it?&lt;/h3&gt;
+
+&lt;p&gt;You can quickly generate a GPG key by running:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gpg &lt;span class=&quot;nt&quot;&gt;--full-generate-key&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;And then answer some questions.&lt;/p&gt;
+
+&lt;p&gt;You can list all GPG keys available inside your computer by:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gpg &lt;span class=&quot;nt&quot;&gt;--list-secret-keys&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--keyid-format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;long
+
+/Users/hubot/.gnupg/secring.gpg
+&lt;span class=&quot;nt&quot;&gt;------------------------------------&lt;/span&gt;
+sec   4096R/3AA5C34371567BD2 2016-03-10 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;expires: 2017-03-10]
+uid                          Hubot 
+ssb   4096R/42B317FD4BA89E7A 2016-03-10
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And you can export your GPG public key by:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gpg &lt;span class=&quot;nt&quot;&gt;--armor&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--export&lt;/span&gt; 3AA5C34371567BD2
+
+&lt;span class=&quot;c&quot;&gt;# Prints the GPG key ID, in ASCII armor format&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And finally, you copy GPG key, beginning with &lt;code class=&quot;highlighter-rouge&quot;&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----&lt;/code&gt; and ending with &lt;code class=&quot;highlighter-rouge&quot;&gt;-----END PGP PUBLIC KEY BLOCK-----&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;adding-gpg-key-to-your-github-account&quot;&gt;Adding GPG key to your Github account&lt;/h3&gt;
+
+&lt;p&gt;Just access &lt;a href=&quot;https://github.com/settings/keys&quot;&gt;Github config&lt;/a&gt; and paste the key from above.&lt;/p&gt;
+
+&lt;h3 id=&quot;tell-git-your-singing-key&quot;&gt;Tell Git your singing key&lt;/h3&gt;
+
+&lt;p&gt;We tell Git to use GPG key to encrypt our commit by:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.signingkey 3AA5C34371567BD2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3AA5C34371567BD2&lt;/code&gt; is your GPG key ID.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+        <link>https://namtx.github.io/2021/setup-GPG-for-github-account/</link>
+        <guid isPermaLink="true">https://namtx.github.io/2021/setup-GPG-for-github-account/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Initilize a ReactJS project with Typescript from scratch</title>
@@ -1113,75 +1179,6 @@ curl &lt;span class=&quot;nt&quot;&gt;-sfL&lt;/span&gt; https://get.k3s.io | &lt
         <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
         <link>https://namtx.github.io/2020/k3s-on-vagrant/</link>
         <guid isPermaLink="true">https://namtx.github.io/2020/k3s-on-vagrant/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Amazon Lambda</title>
-        <description>&lt;h4 id=&quot;provisioned-concurrency&quot;&gt;Provisioned Concurrency&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.serverless.com/blog/aws-lambda-provisioned-concurrency/&quot;&gt;AWS Lambda Provisioned Concurrency&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;configuring-a-lambda-function-to-access-resources-in-vpc&quot;&gt;Configuring a Lambda function to access resources in VPC&lt;/h4&gt;
-
-&lt;p&gt;Connect your function to private subnets to access private resources. If your function needs internet access, use NAT. 
-Connecting a function to public subnets does NOT give it internet access or a public IP address&lt;/p&gt;
-
-&lt;p&gt;When you connect to VPC, Lamda creats an Elastic Network Interface (ENI)
-Multiple functions connected to the same subnets share network interfaces&lt;/p&gt;
-
-&lt;p&gt;Permissions needed:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ec2:CreateNetworkInterface&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ec2:DescribeNetworkInterfaces&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ec2:DeleteNetworkInterface&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These persmissions included in &lt;code class=&quot;highlighter-rouge&quot;&gt;AWSLambdaVPCAccessExecutionRole&lt;/code&gt; managed policy.&lt;/p&gt;
-
-&lt;h4 id=&quot;synchronous-invocation&quot;&gt;Synchronous invocation&lt;/h4&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;aws lambda invoke &lt;span class=&quot;nt&quot;&gt;--function-name&lt;/span&gt; my-function &lt;span class=&quot;nt&quot;&gt;--payload&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{ }'&lt;/span&gt; response.json
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/invocation-sync.png&quot; alt=&quot;lambda synchronous invocation&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;asynchronous-invocation&quot;&gt;Asynchronous invocation&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/features-async.png&quot; alt=&quot;asynchronous invocation&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;aws lambda invoke &lt;span class=&quot;nt&quot;&gt;--function-name&lt;/span&gt; my-function &lt;span class=&quot;nt&quot;&gt;--invocation-type&lt;/span&gt; Event &lt;span class=&quot;nt&quot;&gt;--payload&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{&quot;key&quot;: &quot;value&quot;}'&lt;/span&gt; response.json
-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;s2&quot;&gt;&quot;StatusCode&quot;&lt;/span&gt;: 202
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;If your function returns an error, AWS will automatically retry the invoke twice, for a total of three invocations.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Dwell time&lt;/code&gt; how long your request spent in the service queue&lt;/p&gt;
-
-&lt;h4 id=&quot;poll-based-invocation&quot;&gt;Poll-Based Invocation&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;Amazon Kinesis&lt;/li&gt;
-  &lt;li&gt;Amazon SQS&lt;/li&gt;
-  &lt;li&gt;Amazon DynamoDB&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2019/07/02/table-invoke-lambda3.png&quot; alt=&quot;invocation types&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;function-scaling&quot;&gt;Function scaling&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/features-scaling.png&quot; alt=&quot;function scaling&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;function-scaling-with-provisioned-concurrency&quot;&gt;Function scaling with Provisioned Concurrency&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/features-scaling-provisioned.png&quot; alt=&quot;provisioned-concurrency&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;autoscaling-with-provisioned-concurrency&quot;&gt;Autoscaling with Provisioned Concurrency&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://docs.aws.amazon.com/lambda/latest/dg/images/features-scaling-provisioned-auto.png&quot; alt=&quot;provisioned-concurrency&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-        <link>https://namtx.github.io/2020/amazon-lambda/</link>
-        <guid isPermaLink="true">https://namtx.github.io/2020/amazon-lambda/</guid>
         
         
       </item>
