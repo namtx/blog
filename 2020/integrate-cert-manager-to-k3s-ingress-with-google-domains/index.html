@@ -96,8 +96,8 @@ Events:
         <span class="na">clouddns</span><span class="pi">:</span>
           <span class="na">project</span><span class="pi">:</span> <span class="s">tf-test-xxxx</span>
           <span class="s">serviceAccountSecretRef</span>
-            <span class="s">name</span><span class="pi">:</span> <span class="s">clouddns-dns01-solver-svc-acct</span>
-            <span class="s">key</span><span class="pi">:</span> <span class="s">key.json</span>
+            <span class="s">name</span><span class="err">:</span> <span class="s">clouddns-dns01-solver-svc-acct</span>
+            <span class="s">key</span><span class="err">:</span> <span class="s">key.json</span>
 </code></pre></div></div> <p>About DNS01 Challenge for Google CloudDNS please refer: <a href="https://cert-manager.io/docs/configuration/acme/dns01/google/">https://cert-manager.io/docs/configuration/acme/dns01/google/</a></p> <p>Create the ClusterIssuer</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl create <span class="nt">-f</span> letsencrypt-staging-issuer.yaml
 </code></pre></div></div> <p>Confirm the result by</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>kubectl get clusterissuer
 NAME                         READY   AGE

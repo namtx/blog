@@ -5,8 +5,8 @@
     <description>Ruby on Rails, Devops and more</description>
     <link>https://namtx.github.io/</link>
     <atom:link href="https://namtx.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Sep 2021 04:26:26 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Sep 2021 04:26:26 +0000</lastBuildDate>
+    <pubDate>Sun, 10 Oct 2021 09:19:38 +0000</pubDate>
+    <lastBuildDate>Sun, 10 Oct 2021 09:19:38 +0000</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
     
@@ -672,8 +672,8 @@ Events:
         &lt;span class=&quot;na&quot;&gt;clouddns&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
           &lt;span class=&quot;na&quot;&gt;project&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;tf-test-xxxx&lt;/span&gt;
           &lt;span class=&quot;s&quot;&gt;serviceAccountSecretRef&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;clouddns-dns01-solver-svc-acct&lt;/span&gt;
-            &lt;span class=&quot;s&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;key.json&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;clouddns-dns01-solver-svc-acct&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;key.json&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;About DNS01 Challenge for Google CloudDNS please refer: &lt;a href=&quot;https://cert-manager.io/docs/configuration/acme/dns01/google/&quot;&gt;https://cert-manager.io/docs/configuration/acme/dns01/google/&lt;/a&gt;&lt;/p&gt;
